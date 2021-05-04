@@ -36,6 +36,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::group(['middleware' => 'auth'], function () {
 	Route::resource('roles', 'App\Http\Controllers\Setting\RoleController');
     Route::get('portal', function () {
-        return view('page.portal');
+        return view('modules.dashboard');
     });
 });
