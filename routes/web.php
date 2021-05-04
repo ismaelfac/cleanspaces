@@ -28,13 +28,14 @@ Route::get('project', function () {
 Route::get('contact', function () {
     return view('page.contact');
 });
-Route::get('portal', function () {
-    return view('page.portal');
-});
+
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::group(['middleware' => 'auth'], function () {
 	Route::resource('roles', 'App\Http\Controllers\Setting\RoleController');
+    Route::get('portal', function () {
+        return view('page.portal');
+    });
 });
