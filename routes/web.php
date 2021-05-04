@@ -28,6 +28,9 @@ Route::get('project', function () {
 Route::get('contact', function () {
     return view('page.contact');
 });
+Route::get('portal', function () {
+    return view('page.portal');
+});
 
 Auth::routes();
 
