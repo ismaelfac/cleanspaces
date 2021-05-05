@@ -38,4 +38,10 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('portal', function () {
         return view('modules.dashboard');
     });
+    Route::get('services', function () {
+        return view('modules.services');
+    });
+    Route::get('modules', function () {
+        return view('modules.modules');
+    });
 });
