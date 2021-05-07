@@ -1898,26 +1898,62 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "FrmQuotes",
   data: function data() {
     return {
       checkedTCU: false,
       checkedICR: false,
       typeDni: [{
-        id: 'CC',
-        value: 'CC'
+        id: "CC",
+        value: "CC"
       }, {
-        id: 'NIT',
-        value: 'NIT'
+        id: "NIT",
+        value: "NIT"
       }],
-      selectedDni: '',
-      dni: '',
-      name: '',
-      lastName: '',
-      businnessName: '',
-      email: '',
-      password: '',
-      repeatPassword: '',
+      selectedDni: "",
+      dni: "",
+      name: "",
+      lastName: "",
+      businnessName: "",
+      email: "",
+      password: "",
+      repeatPassword: "",
       errors: {
         nameState: true
       }
@@ -2014,28 +2050,20 @@ __webpack_require__.r(__webpack_exports__);
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
   \*****************************/
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
- */
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _components_RegisterComponent_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/RegisterComponent.vue */ "./resources/js/components/RegisterComponent.vue");
+/* harmony import */ var _components_FrmQuotesComponent_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/FrmQuotesComponent.vue */ "./resources/js/components/FrmQuotesComponent.vue");
+
+
+
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js").default;
-/**
- * The following block of code may be used to automatically register your
- * Vue components. It will recursively scan this directory for the Vue
- * components and automatically register them with their "basename".
- *
- * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
- */
-// const files = require.context('./', true, /\.vue$/i)
-// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
-
-Vue.component('register-component', __webpack_require__(/*! ./components/RegisterComponent.vue */ "./resources/js/components/RegisterComponent.vue"));
-Vue.component('quotes-component', __webpack_require__(/*! ./components/FrmQuotesComponent.vue */ "./resources/js/components/FrmQuotesComponent.vue"));
+Vue.component('register-component', _components_RegisterComponent_vue__WEBPACK_IMPORTED_MODULE_0__.default);
+Vue.component('quotes-component', _components_FrmQuotesComponent_vue__WEBPACK_IMPORTED_MODULE_1__.default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -37761,7 +37789,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
+    return _c("div", { staticClass: "row" }, [
       _c("div", { staticClass: "col-md-12" }, [
         _c("div", { staticClass: "form-group" }, [
           _c("div", { staticClass: "form-field" }, [
@@ -37775,29 +37803,29 @@ var staticRenderFns = [
                 { staticClass: "form-control", attrs: { name: "", id: "" } },
                 [
                   _c("option", { attrs: { value: "" } }, [
-                    _vm._v("Select Services")
+                    _vm._v("Que servicios esta interesado")
                   ]),
                   _vm._v(" "),
-                  _c("option", { attrs: { value: "" } }, [_vm._v("Skylights")]),
+                  _c("option", { attrs: { value: "" } }, [_vm._v("Piscinas")]),
                   _vm._v(" "),
                   _c("option", { attrs: { value: "" } }, [
-                    _vm._v("Waterproofing")
-                  ]),
-                  _vm._v(" "),
-                  _c("option", { attrs: { value: "" } }, [
-                    _vm._v("Industrial Roofing")
+                    _vm._v("Aires Acondicionados")
                   ]),
                   _vm._v(" "),
                   _c("option", { attrs: { value: "" } }, [
-                    _vm._v("Residential Roofing")
+                    _vm._v("Obras Civiles")
                   ]),
                   _vm._v(" "),
                   _c("option", { attrs: { value: "" } }, [
-                    _vm._v("Gutter Cleaning")
+                    _vm._v("Lavado de Muebles ")
                   ]),
                   _vm._v(" "),
                   _c("option", { attrs: { value: "" } }, [
-                    _vm._v("Commercial Roofing")
+                    _vm._v("Impermiabilizacion")
+                  ]),
+                  _vm._v(" "),
+                  _c("option", { attrs: { value: "" } }, [
+                    _vm._v("Redes Electricas")
                   ])
                 ]
               )
@@ -37806,16 +37834,19 @@ var staticRenderFns = [
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "col-md-6" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("div", { staticClass: "form-group" }, [
           _c("input", {
             staticClass: "form-control",
-            attrs: { type: "text", placeholder: "Your Name" }
+            attrs: {
+              type: "text",
+              placeholder: "Nombre Persona Natural / Juridica"
+            }
           })
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "col-md-6" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("div", { staticClass: "form-group" }, [
           _c("input", {
             staticClass: "form-control",
@@ -37824,33 +37855,12 @@ var staticRenderFns = [
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "col-md-6" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("div", { staticClass: "form-group" }, [
-          _c("div", { staticClass: "input-wrap" }, [
-            _c("div", { staticClass: "icon" }, [
-              _c("span", { staticClass: "fa fa-calendar" })
-            ]),
-            _vm._v(" "),
-            _c("input", {
-              staticClass: "form-control appointment_date",
-              attrs: { type: "text", placeholder: "Date" }
-            })
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-md-6" }, [
-        _c("div", { staticClass: "form-group" }, [
-          _c("div", { staticClass: "input-wrap" }, [
-            _c("div", { staticClass: "icon" }, [
-              _c("span", { staticClass: "fa fa-clock-o" })
-            ]),
-            _vm._v(" "),
-            _c("input", {
-              staticClass: "form-control appointment_time",
-              attrs: { type: "text", placeholder: "Time" }
-            })
-          ])
+          _c("input", {
+            staticClass: "form-control",
+            attrs: { type: "text", placeholder: "Numero de Contacto" }
+          })
         ])
       ]),
       _vm._v(" "),
@@ -37863,8 +37873,61 @@ var staticRenderFns = [
               id: "",
               cols: "30",
               rows: "7",
-              placeholder: "Message"
+              placeholder: "Dejanos alguna observación y/o requerimiento"
             }
+          })
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("div", { staticClass: "form-check" }, [
+          _c("input", {
+            staticClass: "form-check-input",
+            attrs: { type: "checkbox", value: "", id: "defaultCheck1" }
+          }),
+          _vm._v(" "),
+          _c(
+            "label",
+            {
+              staticClass: "form-check-label",
+              attrs: { for: "defaultCheck1" }
+            },
+            [
+              _vm._v(
+                "\n                Quiero recibir información y/o promociones\n            "
+              )
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("div", { staticClass: "form-check" }, [
+          _c("input", {
+            staticClass: "form-check-input",
+            attrs: { type: "checkbox", value: "", id: "defaultCheck1" }
+          }),
+          _vm._v(" "),
+          _c(
+            "label",
+            {
+              staticClass: "form-check-label",
+              attrs: { for: "defaultCheck1" }
+            },
+            [
+              _vm._v(
+                "\n                Quiero ser contactado por un asesor\n            "
+              )
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("div", { staticClass: "form-group" }, [
+          _c("input", {
+            staticClass: "btn btn-primary py-3 px-4",
+            attrs: { type: "submit", value: "Send message" }
           })
         ])
       ])

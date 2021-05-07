@@ -43,22 +43,7 @@
                         </div>
                     </div>
                     <div class="col-lg-5 d-flex align-items-stretch">
-                        <div id="app" class="bg-white">
-                            <div class="w-100 heading-title bg-primary text-center">
-                                <h2 class="mb-0">Consigue una cotización</h2>
-                            </div>
-                            <form method="POST" action="{{ url('/') }}" class="appointment bg-white p-4 p-md-5">
-                                @csrf
-                                <div class="row">
-                                    <quotes-component></quotes-component>
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="submit" value="Solicitar Cotización" class="btn btn-primary py-3 px-4">
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+                        @include('forms.frm_quotes')
                     </div>
                 </div>
             </div>
