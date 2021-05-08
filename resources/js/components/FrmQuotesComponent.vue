@@ -127,9 +127,20 @@ export default {
             }
         };
     },
+    async created() {
+        // POST request using axios with error handling
+        const article = { title: "Vue POST Request Example" };
+        const response = await axios.post("api/getServices", article)
+            .then(response => this.articleId = response.data.id)
+            .catch(error => {
+            this.errorMessage = error.message;
+            console.error("There was an error!", error);
+            });
+        console.log(this.response);
+        },
     methods: {
         getServices() {
-            
+
         }
     }
 };

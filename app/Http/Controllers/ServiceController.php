@@ -14,7 +14,7 @@ class ServiceController extends Controller
      */
     public function index()
     {
-        //
+
     }
 
     /**
@@ -81,5 +81,11 @@ class ServiceController extends Controller
     public function destroy(Service $service)
     {
         //
+    }
+
+    public function getServices()
+    {
+        $services = Service::all();
+        return response()->json($services, 200);
     }
 }
