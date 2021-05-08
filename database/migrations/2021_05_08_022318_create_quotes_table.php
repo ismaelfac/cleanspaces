@@ -17,7 +17,7 @@ class CreateQuotesTable extends Migration
             $table->id();
             $table->foreignId('service_id')->references('id')->on('services')->onUpdate('cascade');
             $table->enum('person_type', ['Persona', 'Empresa'])->default('Persona');
-            $table->string('name');
+            $table->string('names');
             $table->string('email');
             $table->string('phone');
             $table->mediumText('comments');

@@ -113,6 +113,7 @@ export default {
                 { id: "1", value: "Soy Persona" },
                 { id: "2", value: "Soy Empresa" }
             ],
+            cmdServices: '',
             selectedPersonType: "",
             dni: "",
             name: "",
@@ -125,6 +126,11 @@ export default {
                 nameState: true
             }
         };
+    },
+    methods: {
+        getServices() {
+            
+        }
     }
 };
 </script>
