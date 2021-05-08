@@ -1,0 +1,37 @@
+[
+    {
+        "title": "MANTENIMIENTO PISCINAS",
+        "description": "lorem",
+        "state": true
+    },
+    {
+        "title": "MANTENIMIENTO DE AIRES ACONDICIONADOS",
+        "description": "lorem",
+        "state": true
+    },
+    {
+        "title": "OBRAS CIVILES",
+        "description": "lorem",
+        "state": true
+    },
+    {
+        "title": "LAVADO DE MUEBLES",
+        "description": "lorem",
+        "state": true
+    },
+    {
+        "title": "INSTALACIONES Y ADECUACIONES",
+        "description": "lorem",
+        "state": true
+    },
+    {
+        "title": "IMPERMIABILIZACION",
+        "description": "lorem",
+        "state": true
+    },
+    {
+        "title": "REDES ELECTRICAS",
+        "description": "lorem",
+        "state": true
+    }
+]

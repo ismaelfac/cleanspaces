@@ -24,11 +24,11 @@
   <body>
 	<div class="wrap">
 	    <div class="container">
-				<div class="row justify-content-between">
-					<div class="col-3 d-flex align-items-center">
-						<a class="navbar-brand d-flex" href="#"><div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-roof-2"></span></div>Roofing</a>
-					</div>
-					<div class="col-3 d-flex justify-content-end align-items-center">
+            <div class="row justify-content-between">
+                <div class="col-3 d-flex align-items-center">
+                    <a class="navbar-brand d-flex" href="#"><div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-roof-2"></span></div>CleanSpaces</a>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
             @guest
               @if (Route::has('login'))
               <a href="{{ url('login') }}" class="btn btn-primary btn-sm mr-2">Acceder </a>
@@ -40,7 +40,7 @@
             @else
               <div class="social-media">
                 <a id="navbarDropdown" class="btn btn-primary btn-sm mr-2 nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                    Bienvenido <br>{{ Auth::user()->name }}
+                    Bienvenido {{ Auth::user()->name }}
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                     <a href="portal" class="dropdown-item">Mi portal </a>

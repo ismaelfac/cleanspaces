@@ -29,6 +29,7 @@ class CreateCustomersTable extends Migration
             $table->string('email', 60)->unique();
             $table->boolean('checkedICR')->default(false);
             $table->boolean('checkedTCU')->default(false);
+            $table->boolean('state')->default(false);
             $table->timestamps();
         });
     }

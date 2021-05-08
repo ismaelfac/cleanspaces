@@ -19,9 +19,11 @@ class DatabaseSeeder extends Seeder
             'role_has_permissions',
             'permissions',
             'roles',
-            'customers'
+            'customers',
+            'services'
         ]);
         $this->call([
+            ServiceSeeder::class,
             PermissionsTableSeeder::class,
             //PersonTableSeeder::class,
             //CustomersTableSeeder::class,

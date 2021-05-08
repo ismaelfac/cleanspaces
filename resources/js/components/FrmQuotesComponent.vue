@@ -22,10 +22,26 @@
         </div>
         <div class="col-md-12">
             <div class="form-group">
+                <div class="form-field">
+                    <div class="select-wrap">
+                        <div class="icon">
+                            <span class="fa fa-chevron-down"></span>
+                        </div>
+                        <select name="selectedPersonType" id="selectedPersonType" class="form-control" v-model="selectedPersonType">
+                            <option value="">Eres empresa o persona natural</option>
+                            <option value="1">Soy empresa</option>
+                            <option value="2">Soy persona natural</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-group">
                 <input
                     type="text"
                     class="form-control"
-                    placeholder="Nombre Persona Natural / Juridica"
+                    placeholder="Nombre Persona Natural / Empresa"
                 />
             </div>
         </div>
@@ -71,7 +87,7 @@
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                 <label class="form-check-label" for="defaultCheck1">
-                    Quiero ser contactado por un asesor
+                    Requiero atención personalizada
                 </label>
             </div>
         </div>
@@ -93,11 +109,11 @@ export default {
         return {
             checkedTCU: false,
             checkedICR: false,
-            typeDni: [
-                { id: "CC", value: "CC" },
-                { id: "NIT", value: "NIT" }
+            personType: [
+                { id: "1", value: "Soy Persona" },
+                { id: "2", value: "Soy Empresa" }
             ],
-            selectedDni: "",
+            selectedPersonType: "",
             dni: "",
             name: "",
             lastName: "",
