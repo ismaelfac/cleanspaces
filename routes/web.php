@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\QuoteController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,6 +28,7 @@ Route::get('project', function () {
 Route::get('contact', function () {
     return view('page.contact');
 });
+Route::resource('quotes', QuoteController::class);
 
 
 Auth::routes();

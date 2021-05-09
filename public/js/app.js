@@ -1913,67 +1913,34 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "FrmQuotes",
   data: function data() {
     return {
-      checkedTCU: false,
-      checkedICR: false,
-      personType: [{
-        id: "1",
-        value: "Soy Persona"
-      }, {
-        id: "2",
-        value: "Soy Empresa"
-      }],
-      selectedPersonType: "",
-      dni: "",
-      name: "",
-      lastName: "",
-      businnessName: "",
+      checked_notifications: false,
+      checked_rap: false,
+      selectedPersonType: '',
+      optionServices: [],
+      selectedService: '',
+      comments: "",
+      names: "",
       email: "",
-      password: "",
-      repeatPassword: "",
-      errors: {
-        nameState: true
-      }
+      phone: ""
     };
+  },
+  created: function created() {
+    this.getServices();
+  },
+  methods: {
+    getServices: function getServices() {
+      var _this = this;
+
+      return axios.get('./api/getServices').then(function (response) {
+        return _this.optionServices = response.data;
+      })["catch"](function (error) {
+        return console.log(error);
+      });
+    }
   }
 });
 
@@ -37798,8 +37765,55 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "row" }, [
-    _vm._m(0),
+  return _c("div", [
+    _c("div", { staticClass: "col-md-12" }, [
+      _c("div", { staticClass: "form-group" }, [
+        _c("div", { staticClass: "form-field" }, [
+          _c("div", { staticClass: "select-wrap" }, [
+            _vm._m(0),
+            _vm._v(" "),
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.selectedService,
+                    expression: "selectedService"
+                  }
+                ],
+                staticClass: "form-control",
+                attrs: { name: "selectedService", id: "selectedService" },
+                on: {
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.selectedService = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              _vm._l(_vm.optionServices, function(option) {
+                return _c(
+                  "option",
+                  { key: option.id, domProps: { value: option.id } },
+                  [_vm._v(_vm._s(option.title))]
+                )
+              }),
+              0
+            )
+          ])
+        ])
+      ])
+    ]),
     _vm._v(" "),
     _c("div", { staticClass: "col-md-12" }, [
       _c("div", { staticClass: "form-group" }, [
@@ -37841,11 +37855,11 @@ var render = function() {
                   _vm._v("Eres empresa o persona natural")
                 ]),
                 _vm._v(" "),
-                _c("option", { attrs: { value: "1" } }, [
+                _c("option", { attrs: { value: "Empresa" } }, [
                   _vm._v("Soy empresa")
                 ]),
                 _vm._v(" "),
-                _c("option", { attrs: { value: "2" } }, [
+                _c("option", { attrs: { value: "Persona" } }, [
                   _vm._v("Soy persona natural")
                 ])
               ]
@@ -37855,70 +37869,238 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _vm._m(2),
+    _c("div", { staticClass: "col-md-12" }, [
+      _c("div", { staticClass: "form-group" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.names,
+              expression: "names"
+            }
+          ],
+          staticClass: "form-control",
+          attrs: {
+            type: "text",
+            id: "names",
+            name: "names",
+            placeholder: "Nombre Persona Natural / Empresa"
+          },
+          domProps: { value: _vm.names },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.names = $event.target.value
+            }
+          }
+        })
+      ])
+    ]),
     _vm._v(" "),
-    _vm._m(3),
+    _c("div", { staticClass: "col-md-12" }, [
+      _c("div", { staticClass: "form-group" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.email,
+              expression: "email"
+            }
+          ],
+          staticClass: "form-control",
+          attrs: {
+            type: "text",
+            id: "email",
+            name: "email",
+            placeholder: "Email Address"
+          },
+          domProps: { value: _vm.email },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.email = $event.target.value
+            }
+          }
+        })
+      ])
+    ]),
     _vm._v(" "),
-    _vm._m(4),
+    _c("div", { staticClass: "col-md-12" }, [
+      _c("div", { staticClass: "form-group" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.phone,
+              expression: "phone"
+            }
+          ],
+          staticClass: "form-control",
+          attrs: {
+            type: "text",
+            id: "phone",
+            name: "phone",
+            placeholder: "Numero de Contacto"
+          },
+          domProps: { value: _vm.phone },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.phone = $event.target.value
+            }
+          }
+        })
+      ])
+    ]),
     _vm._v(" "),
-    _vm._m(5),
+    _c("div", { staticClass: "col-md-12" }, [
+      _c("div", { staticClass: "form-group" }, [
+        _c("textarea", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.comments,
+              expression: "comments"
+            }
+          ],
+          staticClass: "form-control",
+          attrs: {
+            name: "comments",
+            id: "comments",
+            cols: "30",
+            rows: "7",
+            placeholder: "Dejanos alguna observación y/o requerimiento"
+          },
+          domProps: { value: _vm.comments },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.comments = $event.target.value
+            }
+          }
+        })
+      ])
+    ]),
     _vm._v(" "),
-    _vm._m(6),
+    _c("div", { staticClass: "col-md-12" }, [
+      _c("div", { staticClass: "form-check" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.checked_notifications,
+              expression: "checked_notifications"
+            }
+          ],
+          staticClass: "form-check-input",
+          attrs: {
+            type: "checkbox",
+            id: "checked_notifications",
+            name: "checked_notifications"
+          },
+          domProps: {
+            checked: Array.isArray(_vm.checked_notifications)
+              ? _vm._i(_vm.checked_notifications, null) > -1
+              : _vm.checked_notifications
+          },
+          on: {
+            change: function($event) {
+              var $$a = _vm.checked_notifications,
+                $$el = $event.target,
+                $$c = $$el.checked ? true : false
+              if (Array.isArray($$a)) {
+                var $$v = null,
+                  $$i = _vm._i($$a, $$v)
+                if ($$el.checked) {
+                  $$i < 0 && (_vm.checked_notifications = $$a.concat([$$v]))
+                } else {
+                  $$i > -1 &&
+                    (_vm.checked_notifications = $$a
+                      .slice(0, $$i)
+                      .concat($$a.slice($$i + 1)))
+                }
+              } else {
+                _vm.checked_notifications = $$c
+              }
+            }
+          }
+        }),
+        _vm._v(" "),
+        _c(
+          "label",
+          {
+            staticClass: "form-check-label",
+            attrs: { for: "checked_notifications" }
+          },
+          [_vm._v(" Quiero recibir información y/o promociones ")]
+        )
+      ])
+    ]),
     _vm._v(" "),
-    _vm._m(7),
-    _vm._v(" "),
-    _vm._m(8)
+    _c("div", { staticClass: "col-md-12" }, [
+      _c("div", { staticClass: "form-check" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.checked_rap,
+              expression: "checked_rap"
+            }
+          ],
+          staticClass: "form-check-input",
+          attrs: { type: "checkbox", id: "checked_rap", name: "checked_rap" },
+          domProps: {
+            checked: Array.isArray(_vm.checked_rap)
+              ? _vm._i(_vm.checked_rap, null) > -1
+              : _vm.checked_rap
+          },
+          on: {
+            change: function($event) {
+              var $$a = _vm.checked_rap,
+                $$el = $event.target,
+                $$c = $$el.checked ? true : false
+              if (Array.isArray($$a)) {
+                var $$v = null,
+                  $$i = _vm._i($$a, $$v)
+                if ($$el.checked) {
+                  $$i < 0 && (_vm.checked_rap = $$a.concat([$$v]))
+                } else {
+                  $$i > -1 &&
+                    (_vm.checked_rap = $$a
+                      .slice(0, $$i)
+                      .concat($$a.slice($$i + 1)))
+                }
+              } else {
+                _vm.checked_rap = $$c
+              }
+            }
+          }
+        }),
+        _vm._v(" "),
+        _c(
+          "label",
+          { staticClass: "form-check-label", attrs: { for: "checked_rap" } },
+          [_vm._v(" Requiero atención personalizada ")]
+        )
+      ])
+    ])
   ])
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12" }, [
-      _c("div", { staticClass: "form-group" }, [
-        _c("div", { staticClass: "form-field" }, [
-          _c("div", { staticClass: "select-wrap" }, [
-            _c("div", { staticClass: "icon" }, [
-              _c("span", { staticClass: "fa fa-chevron-down" })
-            ]),
-            _vm._v(" "),
-            _c(
-              "select",
-              { staticClass: "form-control", attrs: { name: "", id: "" } },
-              [
-                _c("option", { attrs: { value: "" } }, [
-                  _vm._v("Que servicios esta interesado")
-                ]),
-                _vm._v(" "),
-                _c("option", { attrs: { value: "" } }, [_vm._v("Piscinas")]),
-                _vm._v(" "),
-                _c("option", { attrs: { value: "" } }, [
-                  _vm._v("Aires Acondicionados")
-                ]),
-                _vm._v(" "),
-                _c("option", { attrs: { value: "" } }, [
-                  _vm._v("Obras Civiles")
-                ]),
-                _vm._v(" "),
-                _c("option", { attrs: { value: "" } }, [
-                  _vm._v("Lavado de Muebles ")
-                ]),
-                _vm._v(" "),
-                _c("option", { attrs: { value: "" } }, [
-                  _vm._v("Impermiabilizacion")
-                ]),
-                _vm._v(" "),
-                _c("option", { attrs: { value: "" } }, [
-                  _vm._v("Redes Electricas")
-                ])
-              ]
-            )
-          ])
-        ])
-      ])
-    ])
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -37931,120 +38113,8 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12" }, [
-      _c("div", { staticClass: "form-group" }, [
-        _c("input", {
-          staticClass: "form-control",
-          attrs: {
-            type: "text",
-            placeholder: "Nombre Persona Natural / Empresa"
-          }
-        })
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12" }, [
-      _c("div", { staticClass: "form-group" }, [
-        _c("input", {
-          staticClass: "form-control",
-          attrs: { type: "text", placeholder: "Email Address" }
-        })
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12" }, [
-      _c("div", { staticClass: "form-group" }, [
-        _c("input", {
-          staticClass: "form-control",
-          attrs: { type: "text", placeholder: "Numero de Contacto" }
-        })
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12" }, [
-      _c("div", { staticClass: "form-group" }, [
-        _c("textarea", {
-          staticClass: "form-control",
-          attrs: {
-            name: "",
-            id: "",
-            cols: "30",
-            rows: "7",
-            placeholder: "Dejanos alguna observación y/o requerimiento"
-          }
-        })
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12" }, [
-      _c("div", { staticClass: "form-check" }, [
-        _c("input", {
-          staticClass: "form-check-input",
-          attrs: { type: "checkbox", value: "", id: "defaultCheck1" }
-        }),
-        _vm._v(" "),
-        _c(
-          "label",
-          { staticClass: "form-check-label", attrs: { for: "defaultCheck1" } },
-          [
-            _vm._v(
-              "\n                Quiero recibir información y/o promociones\n            "
-            )
-          ]
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12" }, [
-      _c("div", { staticClass: "form-check" }, [
-        _c("input", {
-          staticClass: "form-check-input",
-          attrs: { type: "checkbox", value: "", id: "defaultCheck1" }
-        }),
-        _vm._v(" "),
-        _c(
-          "label",
-          { staticClass: "form-check-label", attrs: { for: "defaultCheck1" } },
-          [
-            _vm._v(
-              "\n                Requiero atención personalizada\n            "
-            )
-          ]
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12" }, [
-      _c("div", { staticClass: "form-group" }, [
-        _c("input", {
-          staticClass: "btn btn-primary py-3 px-4",
-          attrs: { type: "submit", value: "Send message" }
-        })
-      ])
+    return _c("div", { staticClass: "icon" }, [
+      _c("span", { staticClass: "fa fa-chevron-down" })
     ])
   }
 ]

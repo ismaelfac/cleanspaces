@@ -14,6 +14,7 @@ class Quote extends Model
         'person_type',
         'names',
         'email',
+        'phone',
         'comments',
         'checked_notifications',
         'checked_rap',

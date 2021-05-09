@@ -35,7 +35,19 @@ class QuoteController extends Controller
      */
     public function store(Request $request)
     {
-        dd($request);
+        //dd($request->all());
+        $quote = Quote::create([
+            'service_id' => $request->selectedService,
+            'person_type' => $request->selectedPersonType,
+            'names' => $request->names,
+            'email' => $request->email,
+            'phone' => $request->phone,
+            'comments' => $request->comments,
+            'checked_notifications' => ($request->checked_notifications === 'on')? true : false,
+            'checked_rap' => ($request->checked_rap === 'on')? true : false,
+            'state' => 1
+        ]);
+        return redirect()->route('content')->with('info', 'Solicitud generada con Exito');
     }
 
     /**

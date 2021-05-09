@@ -2,8 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Setting\{RoleController, ServiceController};
-
+use App\Http\Controllers\Setting\{RoleController};
+use App\Http\Controllers\ServiceController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -18,8 +18,9 @@ use App\Http\Controllers\Setting\{RoleController, ServiceController};
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::get('/getServices', [ServiceController::class, 'getServices']);
 Route::group(['prefix' => 'api'], function () {
     //** CRUD settings **/
     Route::resource('roles', RoleController::class);
-    Route::get('getServices', ServiceController::class)
+    Route::get('/getServices', [ServiceController::class, 'getServices']);
 });
