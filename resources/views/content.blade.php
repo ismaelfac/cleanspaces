@@ -7,7 +7,7 @@
         <section class="ftco-section ftco-no-pt ftco-no-pb bg-light ftco-appointment">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-7">
+                    <div class="col-sm-12 col-lg-7">
                         <div class="row justify-content-start py-5 pr-md-4">
                             <div class="col-md-12 heading-section ftco-animate py-md-4">
                                 <h2 class="mb-4">Clean Spaces una empresa creada para brindar servicios de calidad</h2>
@@ -42,7 +42,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 d-flex align-items-stretch">
+                    <div class="col-sm-12 col-lg-5">
                         <div id="app" class="bg-white">
                             <div class="w-100 heading-title bg-primary text-center">
                                 <h2 class="mb-0">Quieres una cotización</h2>
