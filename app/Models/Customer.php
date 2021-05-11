@@ -11,4 +11,8 @@ class Customer extends Model
 
     protected $fillable = ['state_customer', 'type_dni', 'dni', 'business_name', 'last_name', 'name', 'slug', 'phone', 'landline', 'email'
     ];
+
+    public function getRouteKeyName() {
+        return 'slug';
+    }
 }

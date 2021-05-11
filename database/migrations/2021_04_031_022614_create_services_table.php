@@ -17,6 +17,7 @@ class CreateServicesTable extends Migration
             $table->id();
             $table->string('title');
             $table->string('description');
+            $table->string('slug')->unique();
             $table->boolean('state')->default(false);
         });
     }
