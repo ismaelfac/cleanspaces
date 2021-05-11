@@ -17,6 +17,10 @@ class Service extends Model
 
     public $timestamps = false;
 
+    public function getRouteKeyName() {
+        return 'slug';
+    }
+
     public function quote()
     {
         return $this->belongsTo(Quote::class);

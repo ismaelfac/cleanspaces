@@ -72,8 +72,8 @@
                             <div class="block-18 text-center">
                             <div class="text">
                                 <div class="icon"><span class="fa fa-calendar"></span></div>
-                                <strong class="number" data-number="45">0</strong>
-                                <span>Years of Experienced</span>
+                                <strong class="number" data-number="10">0</strong>
+                                <span>Años de experiencia</span>
                             </div>
                             </div>
                         </div>
@@ -81,8 +81,8 @@
                             <div class="block-18 text-center">
                             <div class="text">
                                 <div class="icon"><span class="fa fa-briefcase"></span></div>
-                                <strong class="number" data-number="8500">0</strong>
-                                <span>Project completed</span>
+                                <strong class="number" data-number="100">0</strong>
+                                <span>Proyectos completados</span>
                             </div>
                             </div>
                         </div>
@@ -91,7 +91,7 @@
                             <div class="text">
                                 <div class="icon"><span class="fa fa-users"></span></div>
                                 <strong class="number" data-number="2342">0</strong>
-                                <span>Happy Clients</span>
+                                <span>Clientes Satisfechos</span>
                             </div>
                             </div>
                         </div>
@@ -100,7 +100,7 @@
                             <div class="text">
                                 <div class="icon"><span class="fa fa-bar-chart"></span></div>
                                 <strong class="number" data-number="30">0</strong>
-                                <span>Business Partners</span>
+                                <span>Nuevos Clientes por año</span>
                             </div>
                             </div>
                         </div>
@@ -165,14 +165,15 @@
                             <div class="tab-content">
                                 <div class="tab-pane container p-0 active" id="services-1">
                                     <h3><a href="#">Piscinas</a></h3>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                                    <p style="text-align: justify">Los productos químicos no mantendrán las hojas y los insectos fuera del agua, ni mantendrán limpias indefinidamente las paredes y el piso. Así que no hay excusas.</p>
+                                    <p style="text-align: justify">Además de utilizar cloro u otros productos químicos para mantener la limpieza de la piscina, también es absolutamente necesaria practicar una desinfección regular y completa de la propia construcción.</p>
+                                    <p style="text-align: justify">A continuación describiremos una serie de pasos que deberíamos de verificar y practicar con coherencia:</p>
                                     <ul>
-                                        <li><span class="fa fa-check"></span>The Big Oxmox advised her not to do so</li>
-                                        <li><span class="fa fa-check"></span>Far far away, behind the word mountains</li>
-                                        <li><span class="fa fa-check"></span>Separated they live in Bookmarksgrove</li>
-                                        <li><span class="fa fa-check"></span>She packed her seven versalia</li>
-                                        <li><span class="fa fa-check"></span>Little Blind Text didn’t listen</li>
+                                        <li><span class="fa fa-check"></span>Limpiar las paredes y el fondo</li>
+                                        <li><span class="fa fa-check"></span>Lavar el sistema de filtrado</li>
+                                        <li><span class="fa fa-check"></span>Rellena tu piscina</li>
+                                        <li><span class="fa fa-check"></span>Regular el valor de PH</li>
+                                        <li><span class="fa fa-check"></span>Aplica un tratamiento para el agua</li>
                                     </ul>
 
                                 </div>

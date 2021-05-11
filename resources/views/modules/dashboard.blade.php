@@ -14,5 +14,8 @@
       </button>
     </div>
   </div>
+  <div class="container">
+      <h2>COntent</h2>
+  </div>
 
 @endsection
