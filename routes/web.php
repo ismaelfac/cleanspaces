@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\QuoteController;
+use App\Http\Controllers\{ HomeController, QuoteController };
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,10 +12,8 @@ use App\Http\Controllers\QuoteController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::resource('/', HomeController::class);
 
-Route::get('/', function () {
-    return view('content');
-});
 Route::get('about', function () {
     return view('page.about');
 });
@@ -38,9 +36,6 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::resource('roles', 'App\Http\Controllers\Setting\RoleController');
     Route::get('portal', function () {
         return view('modules.dashboard');
-    });
-    Route::get('services', function () {
-        return view('modules.services');
     });
     Route::get('modules', function () {
         return view('modules.modules');
