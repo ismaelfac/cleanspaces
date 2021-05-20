@@ -47,11 +47,12 @@
         </div>
         <div class="col-md-12">
             <div class="form-group">
-                <textarea name="comments" id="comments" cols="30" rows="7" class="form-control" placeholder="Dejanos alguna observación y/o requerimiento"
+                <textarea name="comments" id="comments" cols="30" rows="7" class="form-control" placeholder="Comentanos tu requerimiento"
                     v-model="comments"
                 ></textarea>
             </div>
         </div>
+        
         <div class="col-md-12">
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="checked_notifications" name="checked_notifications" v-model="checked_notifications">

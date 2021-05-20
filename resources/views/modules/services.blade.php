@@ -13,22 +13,37 @@
                       <a class="nav-link active py-4" data-toggle="tab" href="#services-1"><span class="flaticon-roof mr-2"></span> Piscinas</a>
                   </li>
                   <li class="nav-item text-left">
+                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#services-12"><span class="flaticon-roof-7 mr-2"></span>Mantenimiento Tanques</a>
+                  </li>
+                  <li class="nav-item text-left">
                       <a class="nav-link py-4" data-toggle="tab" href="#services-2"><span class="flaticon-roof-1 mr-2"></span> Impermeabilización</a>
                   </li>
                   <li class="nav-item text-left">
-                      <a class="nav-link py-4" data-toggle="tab" href="#services-3"><span class="flaticon-roof-5 mr-2"></span>Mantenimiento Industrial</a>
+                      <a class="nav-link py-4" data-toggle="tab" href="#services-3"><span class="flaticon-roof-5 mr-2"></span>Lavados y Limpieza</a>
                   </li>
                   <li class="nav-item text-left">
-                      <a class="nav-link py-4" data-toggle="tab" href="#services-4"><span class="flaticon-roof-2 mr-2"></span>Mantenimiento Residential</a>
+                      <a class="nav-link py-4" data-toggle="tab" href="#services-4"><span class="flaticon-roof-2 mr-2"></span>Mantenimientos Locativos</a>
                   </li>
                   <li class="nav-item text-left">
-                      <a class="nav-link py-4" data-toggle="tab" href="#services-5"><span class="flaticon-roof-3 mr-2"></span> Lavados</a>
+                      <a class="nav-link py-4" data-toggle="tab" href="#services-5"><span class="flaticon-roof-3 mr-2"></span> Jardineria</a>
                   </li>
                   <li class="nav-item text-left">
-                      <a class="nav-link py-4" data-toggle="tab" href="#services-6"><span class="flaticon-roof-4 mr-2"></span> Fumigaciones</a>
+                      <a class="nav-link py-4" data-toggle="tab" href="#services-6"><span class="flaticon-roof-4 mr-2"></span> Aire Acondicionados</a>
                   </li>
                   <li class="nav-item text-left">
-                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#services-7"><span class="flaticon-roof-7 mr-2"></span> Otros Servicios</a>
+                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#services-7"><span class="flaticon-roof-7 mr-2"></span>Portones</a>
+                  </li>
+                  <li class="nav-item text-left">
+                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#services-8"><span class="flaticon-roof-7 mr-2"></span>Plomeria</a>
+                  </li>
+                  <li class="nav-item text-left">
+                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#services-9"><span class="flaticon-roof-7 mr-2"></span>Obras Civiles</a>
+                  </li>
+                  <li class="nav-item text-left">
+                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#services-10"><span class="flaticon-roof-7 mr-2"></span>Fumigaciones</a>
+                  </li>
+                  <li class="nav-item text-left">
+                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#services-11"><span class="flaticon-roof-7 mr-2"></span>Ebanisteria</a>
                   </li>
               </ul>
           </div>
@@ -126,7 +141,7 @@
           </div>
       </div>
       <div class="col-lg-3 d-flex align-items-stretch">
-          <div class="img" style="background-image: url(images/about.jpg);"></div>
+          <div class="img" style="background-image: url(images/about.jpg); height: 50%;"></div>
       </div>
   </div>
 </div>

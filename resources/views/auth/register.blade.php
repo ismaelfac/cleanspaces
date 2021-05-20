@@ -26,7 +26,7 @@
 	    <div class="container">
 				<div class="row justify-content-between">
 					<div class="col-3 d-flex align-items-center">
-						<a class="navbar-brand d-flex" href="/"><div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-roof-2"></span></div>Roofing</a>
+						<a class="navbar-brand d-flex" href="/"><div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-roof-2"></span></div>CleanSpaces</a>
 					</div>
 					<div class="col-3 d-flex justify-content-end align-items-center">
                         <a href="{{ url('login') }}" class="btn btn-primary btn-sm mr-2">Acceder </a>

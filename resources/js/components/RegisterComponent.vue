@@ -2,28 +2,26 @@
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
+                <div class="form-field">
                     <div class="select-wrap">
-                        <div class="icon"><span class="fa fa-chevron-down"></span></div>
-                        <select name="" id="" class="form-control input-space">
-                            <option value="">Select Services</option>
-                            <option value="">Skylights</option>
-                            <option value="">Waterproofing</option>
-                            <option value="">Industrial Roofing</option>
-                            <option value="">Residential Roofing</option>
-                            <option value="">Gutter Cleaning</option>
-                            <option value="">Commercial Roofing</option>
+                        <div class="icon">
+                            <span class="fa fa-chevron-down"></span>
+                        </div>
+                        <select name="selectedService" id="selectedService" class="form-control" v-model="selectedService">
+                            <option v-for="option in optionServices" :key="option.id" :value="option.id">{{ option.title }}</option>
                         </select>
                     </div>
+                </div>
             </div>
         </div>
         <div class="col-md-6">
             <div class="form-group">
-                <input type="text" class="form-control input-space" placeholder="Your Name">
+                <input type="text" class="form-control input-space" placeholder="Nombres completos / razon social">
             </div>
         </div>
         <div class="col-md-6">
             <div class="form-group">
-<input type="text" class="form-control input-space" placeholder="Email Address">
+<input type="text" class="form-control input-space" placeholder="Email">
 </div>
         </div>
         <div class="col-md-6">
@@ -50,7 +48,9 @@ export default {
             typeDni: [
                 { id: 'CC', value:'CC'},
                 { id: 'NIT', value: 'NIT'}
-            ],
+            ], 
+            optionServices: [],
+            selectedService: '',
             selectedDni: '',
             dni: '',
             name: '',
@@ -62,6 +62,16 @@ export default {
             errors: {
                 nameState: true,
             }
+        }
+    },
+    created: function() {
+        this.getServices();
+    },
+    methods: {
+        getServices(){
+            return axios.get('./api/getServices')
+                        .then(response => (this.optionServices = response.data))
+                        .catch(error => console.log(error));
         }
     }
 }

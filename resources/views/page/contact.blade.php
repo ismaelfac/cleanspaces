@@ -12,12 +12,12 @@
                                     <h3 class="mb-4">Dejenos su comentario</h3>
                                     <form method="POST" id="contactForm" class="contactForm">
                                         <div class="row">
-                                            <div class="col-md-6">
+                                            <div class="col-md-12">
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" name="name" id="name" placeholder="Nombres Completos / Razon Social">
                                                 </div>
                                             </div>
-                                            <div class="col-md-6">
+                                            <div class="col-md-12">
                                                 <div class="form-group">
                                                     <input type="email" class="form-control" name="email" id="email" placeholder="Email">
                                                 </div>
