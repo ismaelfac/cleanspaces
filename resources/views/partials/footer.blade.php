@@ -16,12 +16,12 @@
           <div class="ftco-footer-widget mb-4 ml-md-5">
             <h2 class="ftco-heading-2">Servicios</h2>
             <ul class="list-unstyled">
-              <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Skylights</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Waterproofing</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Industrial Roofing</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Residential Roofing</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Gutter Cleaning</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Commercial Roofing</a></li>
+              <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Piscinas</a></li>
+              <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Tanques</a></li>
+              <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Impermeabilización</a></li>
+              <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Lavado y Limpieza</a></li>
+              <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Locativos</a></li>
+              <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Ver mas servicios</a></li>
             </ul>
           </div>
         </div>
@@ -43,7 +43,7 @@
               <div class="block-23 mb-3">
                 <ul>
                   <li><span class="icon fa fa-map-marker"></span><span class="text">Calle 77a 70 43, Barranquilla, Atlantico, Colombia</span></li>
-                  <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+57 3023573056 - 3233871936</span></a></li>
+                  <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">3233871936</span></a></li>
                   <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">comercial@cleanspacescolombia.com</span></a></li>
                 </ul>
               </div>

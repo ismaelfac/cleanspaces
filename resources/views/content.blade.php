@@ -8,39 +8,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-lg-7">
-                        <div class="row justify-content-start py-5 pr-md-4">
-                            <div class="col-md-12 heading-section ftco-animate py-md-4">
-                                <h2 class="mb-4">Clean Spaces una empresa creada para brindar servicios de calidad</h2>
-                                <p  style="text-align: justify">Como empresa existen ocaciones donde el conocimiento y la experiencias se vuelven indispensables al momento de desarrollar un servicio de mantenimiento, reparacion y/o tarea;
-                                    ademas no se cuenta con las herramientas y la experiencia para manejar dichas tareas relacionadas con el servicio,
-                                    mantenimiento y la reparacion que requiera su bien inmueble.<br>
-                                    <b>Clean Space</b> se convierte en la solución ideal, ya que proporciona personal experto y procesos estandarizados para la solución a su requerimiento</p>
-                                <div class="tabulation-2 mt-4">
-                                    <ul class="nav nav-pills nav-fill d-md-flex d-block">
-                                    <li class="nav-item mb-md-0 mb-2">
-                                        <a class="nav-link active py-3" data-toggle="tab" href="#home1">Nuestra Misión</a>
-                                    </li>
-                                    <li class="nav-item px-lg-2 mb-md-0 mb-2">
-                                        <a class="nav-link py-3" data-toggle="tab" href="#home2">Nuestra Visión</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link py-3 mb-md-0 mb-2" data-toggle="tab" href="#home3">Nuestro Valor</a>
-                                    </li>
-                                    </ul>
-                                    <div class="tab-content rounded mt-2">
-                                    <div class="tab-pane container p-0 active" id="home1">
-                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                    </div>
-                                    <div class="tab-pane container p-0 fade" id="home2">
-                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                    </div>
-                                    <div class="tab-pane container p-0 fade" id="home3">
-                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        @include('modules.about')
                     </div>
                     <div class="col-sm-12 col-lg-5">
                         <div id="app" class="bg-white">
@@ -267,12 +235,12 @@
                         <div class="testimony-wrap py-4">
                             <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
                         <div class="text">
-                            <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
                             <div class="d-flex align-items-center">
                                 <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
                                 <div class="pl-3">
                                     <p class="name">Roger Scott</p>
-                                    <span class="position">Marketing Manager</span>
+                                    <span class="position">Administrador XYZ</span>
                                 </div>
                             </div>
                         </div>
@@ -280,7 +248,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap py-4">
-                            <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                            <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div> 
                         <div class="text">
                             <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                             <div class="d-flex align-items-center">

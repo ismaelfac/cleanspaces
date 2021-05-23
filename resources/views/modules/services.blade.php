@@ -28,42 +28,51 @@
                       <a class="nav-link py-4" data-toggle="tab" href="#services-5"><span class="flaticon-roof-3 mr-2"></span> Jardineria</a>
                   </li>
                   <li class="nav-item text-left">
-                      <a class="nav-link py-4" data-toggle="tab" href="#services-6"><span class="flaticon-roof-4 mr-2"></span> Aire Acondicionados</a>
+                      <a class="nav-link py-4" data-toggle="tab" href="#airconditioners"><span class="flaticon-roof-4 mr-2"></span> Aire Acondicionados</a>
                   </li>
                   <li class="nav-item text-left">
-                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#services-7"><span class="flaticon-roof-7 mr-2"></span>Portones</a>
+                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#portones"><span class="flaticon-roof-7 mr-2"></span>Portones</a>
                   </li>
                   <li class="nav-item text-left">
-                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#services-8"><span class="flaticon-roof-7 mr-2"></span>Plomeria</a>
+                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#plomeria"><span class="flaticon-roof-7 mr-2"></span>Plomeria</a>
                   </li>
                   <li class="nav-item text-left">
-                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#services-9"><span class="flaticon-roof-7 mr-2"></span>Obras Civiles</a>
+                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#obrasciviles"><span class="flaticon-roof-7 mr-2"></span>Obras Civiles</a>
                   </li>
                   <li class="nav-item text-left">
-                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#services-10"><span class="flaticon-roof-7 mr-2"></span>Fumigaciones</a>
+                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#fumigaciones"><span class="flaticon-roof-7 mr-2"></span>Fumigaciones</a>
                   </li>
                   <li class="nav-item text-left">
-                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#services-11"><span class="flaticon-roof-7 mr-2"></span>Ebanisteria</a>
+                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#ebanisteria"><span class="flaticon-roof-7 mr-2"></span>Ebanisteria</a>
                   </li>
               </ul>
           </div>
           <div class="col-md-8 pl-md-4">
               <div class="tab-content">
-                  <div class="tab-pane container p-0 active" id="piscinas">
-                      <h3><a href="#">Piscinas</a></h3>
-                      <p style="text-align: justify">Los productos químicos no mantendrán las hojas y los insectos fuera del agua, ni mantendrán limpias indefinidamente las paredes y el piso. Así que no hay excusas.</p>
-                      <p style="text-align: justify">Además de utilizar cloro u otros productos químicos para mantener la limpieza de la piscina, también es absolutamente necesaria practicar una desinfección regular y completa de la propia construcción.</p>
-                      <p style="text-align: justify">A continuación describiremos una serie de pasos que deberíamos de verificar y practicar con coherencia:</p>
-                      <ul>
-                          <li><span class="fa fa-check"></span>Limpiar las paredes y el fondo</li>
-                          <li><span class="fa fa-check"></span>Lavar el sistema de filtrado</li>
-                          <li><span class="fa fa-check"></span>Rellena tu piscina</li>
-                          <li><span class="fa fa-check"></span>Regular el valor de PH</li>
-                          <li><span class="fa fa-check"></span>Aplica un tratamiento para el agua</li>
-                      </ul>
-
+                    <div class="tab-pane container p-0 active" id="piscinas">
+                        <h3><a href="#">Piscinas</a></h3>
+                        <p style="text-align: justify">Los productos químicos no mantendrán las hojas y los insectos fuera del agua, ni mantendrán limpias indefinidamente las paredes y el piso. Así que no hay excusas.</p>
+                        <p style="text-align: justify">Además de utilizar cloro u otros productos químicos para mantener la limpieza de la piscina, también es absolutamente necesaria practicar una desinfección regular y completa de la propia construcción.</p>
+                        <p style="text-align: justify">A continuación describiremos una serie de pasos que deberíamos de verificar y practicar con coherencia:</p>
+                        <ul>
+                            <li><span class="fa fa-check"></span>Limpiar las paredes y el fondo</li>
+                            <li><span class="fa fa-check"></span>Lavar el sistema de filtrado</li>
+                            <li><span class="fa fa-check"></span>Rellena tu piscina</li>
+                            <li><span class="fa fa-check"></span>Regular el valor de PH</li>
+                            <li><span class="fa fa-check"></span>Aplica un tratamiento para el agua</li>
+                        </ul>
+                        <div class="col-md-12" style="text-align: right"><a href="#" class="btn btn-outline-warning btn block btn-sm">ver mas...</a></div>
+                        <p style="text-align: justify">Que debo saber al momento de cotizar</p>
+                        <ul>
+                            <li><span class="fa fa-check"></span><a href="#">¿Qué afecta el precio de la mantención de piscina?</a></li>
+                            <li><span class="fa fa-check"></span><a href="#">¿Con qué frecuencia hay que hacer mantención de piscina?</a></li>
+                            <li><span class="fa fa-check"></span><a href="#">¿Mantenciones mensuales o bimensuales?</a></li>
+                            <li><span class="fa fa-check"></span><a href="#">¿Qué componentes de una piscina necesitan mantención?</a></li>
+                            <li><span class="fa fa-check"></span><a href="#">¿Cómo contratar a CleanSpaces para la mantención de piscinas?</a></li>
+                        </ul>
+                        <div class="col-md-12" style="text-align: right"><a href="#" class="btn btn-outline-warning btn block btn-sm">Solicitar Cotizacion</a></div>
                   </div>
-                  <div class="tab-pane container p-0 active" id="tanques">
+                  <div class="tab-pane container p-0" id="tanques">
                       <h3><a href="#">Tanques</a></h3>
                       <p style="text-align: justify">Los tanques de almacenamiento domiciliario, y sus redes, deben ser sometidos a lavado y desinfección mínimo 2 veces al año y en caso de detectar daños o infiltraciones se debe realizar el lavado y desinfección después de su reparación.</p>
                       <p style="text-align: justify">Edificios, conjuntos habitacionales, fábricas de alimentos, hospitales, hoteles, colegios, cárceles y demás edificaciones que conglomeren individuos, deben realizar el lavado y desinfección de los tanques de almacenamiento de aguas, colocando un aviso antes de realizar la acción, a fin de que se tomen medidas necesarias ante el corte de agua por lavado y desinfección de los tanques.</p>
@@ -121,7 +130,7 @@
                                 <li><span class="fa fa-check"></span>Little Blind Text didn’t listen</li>
                             </ul>
                     </div>
-                    <div class="tab-pane container p-0 fade" id="services-6">
+                    <div class="tab-pane container p-0 fade" id="airconditioners">
                             <h3><a href="#">Fumigaciones</a></h3>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                             <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
@@ -133,7 +142,55 @@
                                 <li><span class="fa fa-check"></span>Little Blind Text didn’t listen</li>
                             </ul>
                     </div>
-                    <div class="tab-pane container p-0 fade" id="services-7">
+                    <div class="tab-pane container p-0 fade" id="portones">
+                            <h3><a href="#">Otros Servicios</a></h3>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                            <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                            <ul>
+                                <li><span class="fa fa-check"></span>The Big Oxmox advised her not to do so</li>
+                                <li><span class="fa fa-check"></span>Far far away, behind the word mountains</li>
+                                <li><span class="fa fa-check"></span>Separated they live in Bookmarksgrove</li>
+                                <li><span class="fa fa-check"></span>She packed her seven versalia</li>
+                                <li><span class="fa fa-check"></span>Little Blind Text didn’t listen</li>
+                            </ul>
+                    </div>
+                    <div class="tab-pane container p-0 fade" id="plomeria">
+                            <h3><a href="#">Otros Servicios</a></h3>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                            <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                            <ul>
+                                <li><span class="fa fa-check"></span>The Big Oxmox advised her not to do so</li>
+                                <li><span class="fa fa-check"></span>Far far away, behind the word mountains</li>
+                                <li><span class="fa fa-check"></span>Separated they live in Bookmarksgrove</li>
+                                <li><span class="fa fa-check"></span>She packed her seven versalia</li>
+                                <li><span class="fa fa-check"></span>Little Blind Text didn’t listen</li>
+                            </ul>
+                    </div>
+                    <div class="tab-pane container p-0 fade" id="obrasciviles">
+                            <h3><a href="#">Otros Servicios</a></h3>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                            <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                            <ul>
+                                <li><span class="fa fa-check"></span>The Big Oxmox advised her not to do so</li>
+                                <li><span class="fa fa-check"></span>Far far away, behind the word mountains</li>
+                                <li><span class="fa fa-check"></span>Separated they live in Bookmarksgrove</li>
+                                <li><span class="fa fa-check"></span>She packed her seven versalia</li>
+                                <li><span class="fa fa-check"></span>Little Blind Text didn’t listen</li>
+                            </ul>
+                    </div>
+                    <div class="tab-pane container p-0 fade" id="fumigaciones">
+                            <h3><a href="#">Otros Servicios</a></h3>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                            <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                            <ul>
+                                <li><span class="fa fa-check"></span>The Big Oxmox advised her not to do so</li>
+                                <li><span class="fa fa-check"></span>Far far away, behind the word mountains</li>
+                                <li><span class="fa fa-check"></span>Separated they live in Bookmarksgrove</li>
+                                <li><span class="fa fa-check"></span>She packed her seven versalia</li>
+                                <li><span class="fa fa-check"></span>Little Blind Text didn’t listen</li>
+                            </ul>
+                    </div>
+                    <div class="tab-pane container p-0 fade" id="ebanisteria">
                             <h3><a href="#">Otros Servicios</a></h3>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                             <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
