@@ -16,7 +16,7 @@
                       <a class="nav-link border-bottom py-4" data-toggle="tab" href="#tanques"><span class="flaticon-roof-7 mr-2"></span>Mantenimiento Tanques</a>
                   </li>
                   <li class="nav-item text-left">
-                      <a class="nav-link py-4" data-toggle="tab" href="impermeabilizacion><span class="flaticon-roof-1 mr-2"></span> Impermeabilización</a>
+                      <a class="nav-link py-4" data-toggle="tab" href="impermeabilizacion"><span class="flaticon-roof-1 mr-2"></span> Impermeabilización</a>
                   </li>
                   <li class="nav-item text-left">
                       <a class="nav-link py-4" data-toggle="tab" href="#services-3"><span class="flaticon-roof-5 mr-2"></span>Lavados y Limpieza</a>

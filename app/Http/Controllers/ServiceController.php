@@ -2,11 +2,17 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Service;
 use Illuminate\Http\Request;
+use App\Repositories\ServiceRepository;
 
 class ServiceController extends Controller
 {
+    private $ServiceRepository;
+
+    public function __construct(ServiceRepository $serviceRepository)
+    {
+        $this->ServiceRepository = $serviceRepository;
+    }
     /**
      * Display a listing of the resource.
      *
@@ -14,7 +20,8 @@ class ServiceController extends Controller
      */
     public function index()
     {
-
+        $services = $this->ServiceRepository->getServices();
+        return view('page.services', compact('services'));
     }
 
     /**

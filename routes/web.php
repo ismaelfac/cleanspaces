@@ -1,25 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\{ HomeController, QuoteController };
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+use App\Http\Controllers\{ HomeController, QuoteController, ServiceController };
 Route::resource('/', HomeController::class);
 
 Route::get('about', function () {
     return view('page.about');
 });
-Route::get('services', function () {
-    return view('page.services');
-});
+
 Route::get('project', function () {
     return view('page.project');
 });
@@ -27,6 +15,7 @@ Route::get('contact', function () {
     return view('page.contact');
 });
 Route::resource('quotes', QuoteController::class);
+Route::resource('services', ServiceController::class);
 
 
 Auth::routes();
