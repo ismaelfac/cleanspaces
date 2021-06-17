@@ -92,7 +92,7 @@ class ServiceController extends Controller
 
     public function getServices()
     {
-        $services = Service::all();
+        $services = $this->ServiceRepository->getServices();
         return response()->json($services, 200);
     }
 }
