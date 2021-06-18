@@ -14,6 +14,10 @@ Route::get('project', function () {
 Route::get('contact', function () {
     return view('page.contact');
 });
+Route::get('piscinas', function () {
+    return view('modules.services.index');
+});
+
 Route::resource('quotes', QuoteController::class);
 Route::resource('services', ServiceController::class);
 

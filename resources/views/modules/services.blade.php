@@ -30,21 +30,6 @@
                   <li class="nav-item text-left">
                       <a class="nav-link py-4" data-toggle="tab" href="#airconditioners"><span class="flaticon-roof-4 mr-2"></span> Aire Acondicionados</a>
                   </li>
-                  <li class="nav-item text-left">
-                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#portones"><span class="flaticon-roof-7 mr-2"></span>Portones</a>
-                  </li>
-                  <li class="nav-item text-left">
-                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#plomeria"><span class="flaticon-roof-7 mr-2"></span>Plomeria</a>
-                  </li>
-                  <li class="nav-item text-left">
-                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#obrasciviles"><span class="flaticon-roof-7 mr-2"></span>Obras Civiles</a>
-                  </li>
-                  <li class="nav-item text-left">
-                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#fumigaciones"><span class="flaticon-roof-7 mr-2"></span>Fumigaciones</a>
-                  </li>
-                  <li class="nav-item text-left">
-                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#ebanisteria"><span class="flaticon-roof-7 mr-2"></span>Ebanisteria</a>
-                  </li>
               </ul>
           </div>
           <div class="col-md-8 pl-md-4">
@@ -132,66 +117,6 @@
                     </div>
                     <div class="tab-pane container p-0 fade" id="airconditioners">
                             <h3><a href="#">Fumigaciones</a></h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                            <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-                            <ul>
-                                <li><span class="fa fa-check"></span>The Big Oxmox advised her not to do so</li>
-                                <li><span class="fa fa-check"></span>Far far away, behind the word mountains</li>
-                                <li><span class="fa fa-check"></span>Separated they live in Bookmarksgrove</li>
-                                <li><span class="fa fa-check"></span>She packed her seven versalia</li>
-                                <li><span class="fa fa-check"></span>Little Blind Text didn’t listen</li>
-                            </ul>
-                    </div>
-                    <div class="tab-pane container p-0 fade" id="portones">
-                            <h3><a href="#">Otros Servicios</a></h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                            <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-                            <ul>
-                                <li><span class="fa fa-check"></span>The Big Oxmox advised her not to do so</li>
-                                <li><span class="fa fa-check"></span>Far far away, behind the word mountains</li>
-                                <li><span class="fa fa-check"></span>Separated they live in Bookmarksgrove</li>
-                                <li><span class="fa fa-check"></span>She packed her seven versalia</li>
-                                <li><span class="fa fa-check"></span>Little Blind Text didn’t listen</li>
-                            </ul>
-                    </div>
-                    <div class="tab-pane container p-0 fade" id="plomeria">
-                            <h3><a href="#">Otros Servicios</a></h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                            <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-                            <ul>
-                                <li><span class="fa fa-check"></span>The Big Oxmox advised her not to do so</li>
-                                <li><span class="fa fa-check"></span>Far far away, behind the word mountains</li>
-                                <li><span class="fa fa-check"></span>Separated they live in Bookmarksgrove</li>
-                                <li><span class="fa fa-check"></span>She packed her seven versalia</li>
-                                <li><span class="fa fa-check"></span>Little Blind Text didn’t listen</li>
-                            </ul>
-                    </div>
-                    <div class="tab-pane container p-0 fade" id="obrasciviles">
-                            <h3><a href="#">Otros Servicios</a></h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                            <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-                            <ul>
-                                <li><span class="fa fa-check"></span>The Big Oxmox advised her not to do so</li>
-                                <li><span class="fa fa-check"></span>Far far away, behind the word mountains</li>
-                                <li><span class="fa fa-check"></span>Separated they live in Bookmarksgrove</li>
-                                <li><span class="fa fa-check"></span>She packed her seven versalia</li>
-                                <li><span class="fa fa-check"></span>Little Blind Text didn’t listen</li>
-                            </ul>
-                    </div>
-                    <div class="tab-pane container p-0 fade" id="fumigaciones">
-                            <h3><a href="#">Otros Servicios</a></h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                            <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-                            <ul>
-                                <li><span class="fa fa-check"></span>The Big Oxmox advised her not to do so</li>
-                                <li><span class="fa fa-check"></span>Far far away, behind the word mountains</li>
-                                <li><span class="fa fa-check"></span>Separated they live in Bookmarksgrove</li>
-                                <li><span class="fa fa-check"></span>She packed her seven versalia</li>
-                                <li><span class="fa fa-check"></span>Little Blind Text didn’t listen</li>
-                            </ul>
-                    </div>
-                    <div class="tab-pane container p-0 fade" id="ebanisteria">
-                            <h3><a href="#">Otros Servicios</a></h3>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                             <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
                             <ul>
