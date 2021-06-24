@@ -267,73 +267,73 @@
                     <div class="desc w-100 px-4">
                     <div class="text w-100 mb-3">
                         <h2><a href="work-single.html">Impermeabilización</a></h2>
-                        <span>House</span>
+                        <span>Empresa, Casas Comerciales, Bodegas</span>
                     </div>
                 </div>
                 </div>
             </div>
             <div class="col-md-3 ftco-animate">
                 <div class="work img d-flex align-items-end" style="background-image: url(images/services/work3.jpeg);">
-                    <a href="images/work-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                    <a href="images/services/work3.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
                                 <span class="fa fa-expand"></span>
                             </a>
                     <div class="desc w-100 px-4">
                     <div class="text w-100 mb-3">
-                        <h2><a href="work-single.html">Pubs, Bars and Restaurants</a></h2>
-                        <span>House</span>
+                        <h2><a href="work-single.html">Limpieza y lavado de muebles</a></h2>
+                        <span>Empresa, Casas Comerciales, Bodegas</span>
                     </div>
                 </div>
                 </div>
             </div>
             <div class="col-md-3 ftco-animate">
                 <div class="work img d-flex align-items-end" style="background-image: url(images/services/work4.jpeg);">
-                    <a href="images/work-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                    <a href="images/services/work9.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
                                 <span class="fa fa-expand"></span>
                             </a>
                     <div class="desc w-100 px-4">
                     <div class="text w-100 mb-3">
-                        <h2><a href="work-single.html">Pubs, Bars and Restaurants</a></h2>
-                        <span>House</span>
+                        <h2><a href="work-single.html">Mantenimientos Locativos</a></h2>
+                        <span>Empresa, Casas Comerciales, Bodegas</span>
                     </div>
                 </div>
                 </div>
             </div>
 
             <div class="col-md-3 ftco-animate">
-                <div class="work img d-flex align-items-end" style="background-image: url(images/services/work5.jpeg);">
-                    <a href="images/work-5.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                <div class="work img d-flex align-items-end" style="background-image: url(images/services/work18.jpeg);">
+                    <a href="images/services/work17.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
                                 <span class="fa fa-expand"></span>
                             </a>
                     <div class="desc w-100 px-4">
                     <div class="text w-100 mb-3">
-                        <h2><a href="work-single.html">Pubs, Bars and Restaurants</a></h2>
-                        <span>House</span>
+                        <h2><a href="work-single.html">Aseo y Limpieza</a></h2>
+                        <span>Empresa, Casas Comerciales, Bodegas</span>
                     </div>
                 </div>
                 </div>
             </div>
             <div class="col-md-3 ftco-animate">
-                <div class="work img d-flex align-items-end" style="background-image: url(images/services/work9.jpeg);">
-                    <a href="images/work-6.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                <div class="work img d-flex align-items-end" style="background-image: url(images/services/work23.jpg);">
+                    <a href="images/services/work22.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
                                 <span class="fa fa-expand"></span>
                             </a>
                     <div class="desc w-100 px-4">
                     <div class="text w-100 mb-3">
-                        <h2><a href="work-single.html">Pubs, Bars and Restaurants</a></h2>
-                        <span>House</span>
+                        <h2><a href="work-single.html">Mantenimientos Aires Acondicionados</a></h2>
+                        <span>Empresa, Casas Comerciales, Bodegas</span>
                     </div>
                 </div>
                 </div>
             </div>
             <div class="col-md-3 ftco-animate">
                 <div class="work img d-flex align-items-end" style="background-image: url(images/services/work7.jpeg);">
-                    <a href="images/work-7.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                    <a href="images/services/work10.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
                                 <span class="fa fa-expand"></span>
                             </a>
                     <div class="desc w-100 px-4">
                     <div class="text w-100 mb-3">
-                        <h2><a href="work-single.html">Pubs, Bars and Restaurants</a></h2>
-                        <span>House</span>
+                        <h2><a href="work-single.html">Jardineria</a></h2>
+                        <span>Empresa, Casas Comerciales, Bodegas</span>
                     </div>
                 </div>
                 </div>
@@ -347,7 +347,7 @@
                     <div class="desc w-100 px-4">
                     <div class="text w-100 mb-3">
                         <h2><a href="work-single.html">Pubs, Bars and Restaurants</a></h2>
-                        <span>House</span>
+                        <span>Empresa, Casas Comerciales, Bodegas</span>
                     </div>
                 </div>
                 </div>
