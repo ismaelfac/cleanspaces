@@ -15,7 +15,7 @@ Route::get('contact', function () {
     return view('page.contact');
 });
 Route::get('preguntas_frecuentes', function () {
-    return view('modules.services.index');
+    return view('modules.services.frequentQuestions');
 });
 
 
