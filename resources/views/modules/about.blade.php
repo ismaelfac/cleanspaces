@@ -19,13 +19,13 @@
             </ul>
             <div class="tab-content rounded mt-2">
             <div class="tab-pane container p-0 active" id="home1">
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                <p></p>
             </div>
             <div class="tab-pane container p-0 fade" id="home2">
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                <p></p>
             </div>
             <div class="tab-pane container p-0 fade" id="home3">
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                <p></p>
             </div>
             </div>
         </div>
