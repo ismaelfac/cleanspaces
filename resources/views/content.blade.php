@@ -340,13 +340,13 @@
             </div>
 
             <div class="col-md-3 ftco-animate">
-                <div class="work img d-flex align-items-end" style="background-image: url(images/services/work8.jpeg);">
-                    <a href="images/work-8.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                <div class="work img d-flex align-items-end" style="background-image: url(images/services/work24.jpg);">
+                    <a href="images/services/work25.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
                                 <span class="fa fa-expand"></span>
                             </a>
                     <div class="desc w-100 px-4">
                     <div class="text w-100 mb-3">
-                        <h2><a href="work-single.html">Pubs, Bars and Restaurants</a></h2>
+                        <h2><a href="work-single.html">Mantenimiento de Psicinas</a></h2>
                         <span>Empresa, Casas Comerciales, Bodegas</span>
                     </div>
                 </div>
