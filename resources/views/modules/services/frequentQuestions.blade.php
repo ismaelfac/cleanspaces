@@ -5,7 +5,7 @@
     <p><img src="images/services/work25.jpeg" alt="" class="img-fluid"></p>
     <h2 class="mb-3">Que debo conocer antes de realizar un mantenimiento a la piscina</h2>
     <p style="text-align: justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
-        <div class="accordion" id="accordionExample">
+    <div class="accordion" id="accordionExample">
         <div class="card">
             <div class="card-header" id="headingOne">
             <h2 class="mb-0">
@@ -76,18 +76,6 @@
                 And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
             </div>
             </div>
-        </div>
-        </div>
-    <h2 class="mb-3 mt-5">#2. Creative WordPress Themes</h2>
-    <p style="text-align: justify">Temporibus ad error suscipit exercitationem hic molestiae totam obcaecati rerum, eius aut, in. Exercitationem atque quidem tempora maiores ex architecto voluptatum aut officia doloremque. Error dolore voluptas, omnis molestias odio dignissimos culpa ex earum nisi consequatur quos odit quasi repellat qui officiis reiciendis incidunt hic non? Debitis commodi aut, adipisci.</p>
-    <p><img src="images/services/work8.jpeg" alt="" class="img-fluid"></p>
-    <p style="text-align: justify">Quisquam esse aliquam fuga distinctio, quidem delectus veritatis reiciendis. Nihil explicabo quod, est eos ipsum. Unde aut non tenetur tempore, nisi culpa voluptate maiores officiis quis vel ab consectetur suscipit veritatis nulla quos quia aspernatur perferendis, libero sint. Error, velit, porro. Deserunt minus, quibusdam iste enim veniam, modi rem maiores.</p>
-    <div class="tag-widget post-tag-container mb-5 mt-5">
-        <div class="tagcloud">
-        <a href="#" class="tag-cloud-link">Life</a>
-        <a href="#" class="tag-cloud-link">Sport</a>
-        <a href="#" class="tag-cloud-link">Tech</a>
-        <a href="#" class="tag-cloud-link">Travel</a>
         </div>
     </div>
 </div>

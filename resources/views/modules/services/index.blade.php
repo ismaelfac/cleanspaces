@@ -1,5 +1,13 @@
 @extends('welcome')
 @section('title') Servicios @endsection
+@Push('styles')
+    <style>
+      .ftco-section {
+        padding: 4em 0 !important;
+        position: relative;
+      }
+    </style>
+@endpush
 @section('header')
 <section class="menu-wrap flex-md-column-reverse d-md-flex">
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -9,9 +17,9 @@
             </button>
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a href="{{ url('/')}}" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="{{ url('/')}}" class="nav-link">Inicio</a></li>
                     <li class="nav-item"><a href="{{ url('about')}}" class="nav-link">Sobre Nosotros</a></li>
-                    <li class="nav-item"><a href="{{ url('services')}}" class="nav-link">Servicios</a></li>
+                    <li class="nav-item active"><a href="{{ url('services')}}" class="nav-link">Servicios</a></li>
                     <li class="nav-item"><a href="{{ url('project')}}" class="nav-link">Proyectos</a></li>
                     <li class="nav-item"><a href="{{ url('contact')}}" class="nav-link">Contactenos</a></li>
                 </ul>
@@ -34,14 +42,6 @@
           @endempty
           </div> <!-- .col-md-8 -->
           <div class="col-lg-4 sidebar pr-lg-5 ftco-animate">
-            <div class="sidebar-box">
-              <form action="#" class="search-form">
-                <div class="form-group">
-                  <span class="fa fa-search"></span>
-                  <input type="text" class="form-control" placeholder="Type a keyword and hit enter">
-                </div>
-              </form>
-            </div>
             <div class="sidebar-box ftco-animate">
               <div class="categories">
                 <h3>Servicios</h3>
@@ -104,11 +104,6 @@
                 <a href="#" class="tag-cloud-link">industrial</a>
                 <a href="#" class="tag-cloud-link">gutter</a>
               </div>
-            </div>
-
-            <div class="sidebar-box ftco-animate">
-              <h3>Paragraph</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
             </div>
           </div>
         </div>
