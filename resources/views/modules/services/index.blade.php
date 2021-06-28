@@ -8,8 +8,8 @@
       }
     </style>
 @endpush
-@section('header')
-<section class="menu-wrap flex-md-column-reverse d-md-flex">
+@section('content')
+<section class="menu-wrap flex-md-column-reverse d-md-flex" style="margin-top:120px">
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,14 +27,77 @@
         </div>
     </nav>
 </section>
-@endsection
-@section('content')
 <section class="ftco-section ftco-degree-bg">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 order-lg-last ftco-animate">
           @isset($services)
-              <p>Existen servicios</p>
+          <section class="ftco-section bg-light">
+            <div class="container">
+              <div class="row justify-content-center pb-5 mb-3">
+                <div class="col-md-12 heading-section text-center ftco-animate">
+                  <span class="subheading">Price &amp; Plans</span>
+                  <h2>Pricing</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-lg-4 ftco-animate">
+                  <div class="block-7">
+                    <div class="text-center">
+                    <span class="excerpt d-block">Standard</span>
+                    <span class="price"><sup>$</sup> <span class="number">49</span></span>
+                    
+                    <ul class="pricing-text mb-5">
+                      <li><span class="fa fa-check mr-2"></span>1 month dedicated training</li>
+                      <li><span class="fa fa-check mr-2"></span>24/7 in touch on the phone</li>
+                      <li><span class="fa fa-check mr-2"></span>Consultation hours</li>
+                      <li><span class="fa fa-check mr-2"></span>Personal visit</li>
+                      <li><span class="fa fa-check mr-2"></span>meet &amp; greet</li>
+                    </ul>
+
+                    <a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 ftco-animate">
+                  <div class="block-7">
+                    <div class="text-center">
+                    <span class="excerpt d-block">Basic</span>
+                    <span class="price active"><sup>$</sup> <span class="number">79</span></span>
+                    
+                    <ul class="pricing-text mb-5">
+                      <li><span class="fa fa-check mr-2"></span>1 month dedicated training</li>
+                      <li><span class="fa fa-check mr-2"></span>24/7 in touch on the phone</li>
+                      <li><span class="fa fa-check mr-2"></span>Consultation hours</li>
+                      <li><span class="fa fa-check mr-2"></span>Personal visit</li>
+                      <li><span class="fa fa-check mr-2"></span>meet &amp; greet</li>
+                    </ul>
+
+                    <a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 ftco-animate">
+                  <div class="block-7">
+                    <div class="text-center">
+                    <span class="excerpt d-block">Standard</span>
+                    <span class="price"><sup>$</sup> <span class="number">109</span></span>
+                    
+                    <ul class="pricing-text mb-5">
+                      <li><span class="fa fa-check mr-2"></span>1 month dedicated training</li>
+                      <li><span class="fa fa-check mr-2"></span>24/7 in touch on the phone</li>
+                      <li><span class="fa fa-check mr-2"></span>Consultation hours</li>
+                      <li><span class="fa fa-check mr-2"></span>Personal visit</li>
+                      <li><span class="fa fa-check mr-2"></span>meet &amp; greet</li>
+                    </ul>
+
+                    <a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
           @endisset
             
           @empty($services)

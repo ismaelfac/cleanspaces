@@ -29,7 +29,7 @@
             <div class="row justify-content-between">
                 <div class="col-3 d-flex align-items-center">
                     <a class="navbar-brand d-flex" href="#">
-                    <div class="d-flex align-items-center justify-content-center"></div><img src="../../public/images/logo.png" alt=""></a>
+                    <div class="d-flex align-items-center justify-content-center"></div><img src="images/logo.png" alt="" width="150px"></a>
                 </div>
                 <div class="col-4 d-flex justify-content-end align-items-center">
             @guest
@@ -62,13 +62,12 @@
 					</div>
 				</div>
 			</div>
-		</div>
-            @yield('header')
-        <div>
-            @yield('content')
-        </div>
+    </div>
+    <div>
+      @yield('content')
+    </div>
 
-            @yield('footer')
+      @yield('footer')
   <!-- loader -->
 <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
