@@ -13,9 +13,6 @@
                       <a class="nav-link active py-4" data-toggle="tab" href="#piscinas"><span class="flaticon-roof mr-2"></span> Piscinas</a>
                   </li>
                   <li class="nav-item text-left">
-                      <a class="nav-link border-bottom py-4" data-toggle="tab" href="#tanques"><span class="flaticon-roof-7 mr-2"></span>Mantenimiento Tanques</a>
-                  </li>
-                  <li class="nav-item text-left">
                       <a class="nav-link py-4" data-toggle="tab" href="impermeabilizacion"><span class="flaticon-roof-1 mr-2"></span> Impermeabilización</a>
                   </li>
                   <li class="nav-item text-left">
@@ -64,7 +61,6 @@
                       <ul>
                           <li><span class="fa fa-check"></span>Limpiar las paredes y el fondo</li>
                       </ul>
-
                   </div>
                     <div class="tab-pane container p-0 fade" id="impermeabilizacion">
                             <h3><a href="#">Impermeabilización</a></h3>

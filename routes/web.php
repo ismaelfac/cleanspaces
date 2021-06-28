@@ -15,9 +15,26 @@ Route::get('project', function () {
 Route::get('contact', function () {
     return view('page.contact');
 });
-Route::get('piscinas', function () {
-    return view('modules.services.piscinas');
+Route::get('tanques', function () {
+    return view('modules.services.tanques');
 });
+Route::get('impermeabilizacion', function () {
+    return view('modules.services.impermeabilizacion');
+});
+Route::get('lavado_limpieza', function () {
+    return view('modules.services.lavado_limpieza');
+});
+Route::get('mantenimientos_locativos', function () {
+    return view('modules.services.mantenimientos_locativos');
+});
+Route::get('jardineria', function () {
+    return view('modules.services.jardineria');
+});
+Route::get('aires_acondicionados', function () {
+    return view('modules.services.aires_acondicionados');
+});
+
+
 
 Route::resource('quotes', QuoteController::class);
 Route::resource('services', ServiceController::class);

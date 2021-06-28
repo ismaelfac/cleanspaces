@@ -24,6 +24,9 @@
                 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
                     <div class="col-md-10 text-center ftco-animate">
                         <div class="text w-100">
+                            <h2 style="background-color: rgba(15, 126, 98, 0.6); padding:5px; ">Tienes un proyecto o requerimiento</h2>
+                            <h1 class="mb-4">Te ayudamos a materializarlo</h1>
+                            <p><a href="services" class="btn btn-success">Conoce nuestro portafolio</a></p>
                         </div>
                     </div>
                     </div>

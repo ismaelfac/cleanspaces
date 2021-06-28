@@ -29,7 +29,7 @@
               <p>Existen servicios</p>
           @endisset
             
-          @empty($records)
+          @empty($services)
             @yield('contentServices')
           @endempty
           </div> <!-- .col-md-8 -->
@@ -45,12 +45,13 @@
             <div class="sidebar-box ftco-animate">
               <div class="categories">
                 <h3>Servicios</h3>
-                <li><a href="{{ url('piscinas') }}">Piscinas <span class="fa fa-chevron-right"></span></a></li>
-                <li><a href="#">Waterproofing <span class="fa fa-chevron-right"></span></a></li>
-                <li><a href="#">Industrial Roofing <span class="fa fa-chevron-right"></span></a></li>
-                <li><a href="#">Residential Roofing <span class="fa fa-chevron-right"></span></a></li>
-                <li><a href="#">Gutter Cleaning<span class="fa fa-chevron-right"></span></a></li>
-                <li><a href="#">Commercial Roofing<span class="fa fa-chevron-right"></span></a></li>
+                <li><a href="{{ url('piscinas')}} ">Piscinas <span class="fa fa-chevron-right"></span></a></li>
+                <li><a href="{{ url('tanques')}}">Mantenimiento de Tanques <span class="fa fa-chevron-right"></span></a></li>
+                <li><a href="{{ url('impermeabilizacion')}}">Impermeabilizacion <span class="fa fa-chevron-right"></span></a></li>
+                <li><a href="{{ url('lavado_limpieza')}}">Lavado y Limpieza <span class="fa fa-chevron-right"></span></a></li>
+                <li><a href="{{ url('mantenimientos_locativos')}}">Mantenimientos Locativos<span class="fa fa-chevron-right"></span></a></li>
+                <li><a href="{{ url('jardineria')}}">Jardineria<span class="fa fa-chevron-right"></span></a></li>
+                <li><a href="{{ url('aires_acondicionados')}}">Aires Acondicionados<span class="fa fa-chevron-right"></span></a></li>
               </div>
             </div>
 
@@ -110,7 +111,6 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
             </div>
           </div>
-
         </div>
       </div>
     </section> <!-- .section -->

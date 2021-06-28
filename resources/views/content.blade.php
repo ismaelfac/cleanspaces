@@ -144,14 +144,7 @@
                                             <li><span class="fa fa-check"></span>Aplica un tratamiento para el agua</li>
                                         </ul>
                                         <div class="col-md-12" style="text-align: right"><a href="#" class="btn btn-outline-warning btn block btn-sm">ver mas...</a></div>
-                                        <p style="text-align: justify">Que debo saber al momento de cotizar</p>
-                                        <ul>
-                                            <li><span class="fa fa-check"></span><a href="#">¿Qué afecta el precio de la mantención de piscina?</a></li>
-                                            <li><span class="fa fa-check"></span><a href="#">¿Con qué frecuencia hay que hacer mantención de piscina?</a></li>
-                                            <li><span class="fa fa-check"></span><a href="#">¿Mantenciones mensuales o bimensuales?</a></li>
-                                            <li><span class="fa fa-check"></span><a href="#">¿Qué componentes de una piscina necesitan mantención?</a></li>
-                                            <li><span class="fa fa-check"></span><a href="#">¿Cómo contratar a CleanSpaces para la mantención de piscinas?</a></li>
-                                        </ul>
+                                        
                                         <div class="col-md-12" style="text-align: right"><a href="#" class="btn btn-outline-warning btn block btn-sm">Solicitar Cotizacion</a></div>
                                 </div>
                                 <div class="tab-pane container p-0" id="tanques">
@@ -354,7 +347,7 @@
             </div>
             </div>
                 </div>
-            </section>
+        </section>
 
 
         <section class="ftco-section testimony-section bg-light">
@@ -453,24 +446,24 @@
             <div class="container">
                 <div class="row justify-content-center pb-5 mb-3">
                 <div class="col-md-7 heading-section text-center ftco-animate">
-                    <span class="subheading">Plataforma CleanSpaces</span>
-                    <h4>Registrate y maneja todos tus servicios con nuestra plataforma de servicios</h4>
+                    <span class="subheading">Preguntas Frecuentes</span>
+                    <h4>En CleanSpace sabemos que puedes tener dudas. Aqui te brindamos un glosario de preguntas frecuentes </h4>
                 </div>
                 </div>
                 <div class="row d-flex">
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry align-self-stretch">
-                    <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+                    <a href="#" class="block-20" style="background-image: url('images/services/work25.jpeg');">
                     </a>
                     <div class="text p-3">
                         <div class="posted mb-3 d-flex">
                             <div class="img author" style="background-image: url(images/person_2.jpg);"></div>
                             <div class="desc pl-3">
-                                <span>Posted by John doe</span>
-                                <span>24 February 2020</span>
+                                <span>Brayan Oconer</span>
+                                <span>24 Febrero 2021</span>
                             </div>
                         </div>
-                        <h3 class="heading"><a href="#">How Roofing Charge for Their Services</a></h3>
+                        <h3 class="heading"><a href="{{ url('preguntas_frecuentes')}}"><p style="text-align: justify">Que debo conocer antes de realizar un mantenimiento a la piscina</p></a></h3>
                     </div>
                     </div>
                 </div>
