@@ -19,13 +19,16 @@
             </ul>
             <div class="tab-content rounded mt-2">
             <div class="tab-pane container p-0 active" id="home1">
-                <p></p>
+                <p style="text-align: justify">Constituirnos como el aliado estrategico para su empresa, implementando nuestros procesos estandarizados y de ultima tecnologia
+                en el desarrollo de nuestras actividades. </p>
             </div>
             <div class="tab-pane container p-0 fade" id="home2">
-                <p></p>
+                <p style="text-align: justify">Ser la empresa lider a nivel nacional en servicios de limpieza, mantenimientos y desarrollo de obras civiles.</p>
             </div>
             <div class="tab-pane container p-0 fade" id="home3">
-                <p></p>
+                <p style="text-align: justify">Como empresa experta en el desarrollo de servicios de limpieza, mantenimientos y desarrollo de obras civiles, 
+                presentamos a nuestro clientes, un servicio adecuado a los mas estrictos estandares de calidad, constituyendonos en
+                la mejor opción</p>
             </div>
             </div>
         </div>

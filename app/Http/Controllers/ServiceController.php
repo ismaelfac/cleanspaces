@@ -21,7 +21,7 @@ class ServiceController extends Controller
     public function index()
     {
         $services = $this->ServiceRepository->getServices();
-        return view('page.services', compact('services'));
+        return view('modules.services.index', compact('services'));
     }
 
     /**

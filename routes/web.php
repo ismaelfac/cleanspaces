@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\{ HomeController, QuoteController, ServiceController };
+
 Route::resource('/', HomeController::class);
 
 Route::get('about', function () {
@@ -15,7 +16,7 @@ Route::get('contact', function () {
     return view('page.contact');
 });
 Route::get('piscinas', function () {
-    return view('modules.services.index');
+    return view('modules.services.piscinas');
 });
 
 Route::resource('quotes', QuoteController::class);
