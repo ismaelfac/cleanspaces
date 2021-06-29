@@ -1,6 +1,6 @@
 @extends('modules.services.index')
-@section('title') Piscinas @endsection
-@section('content_frequentQuestion')
+@section('title') Mantenimiento a Piscinas @endsection
+@section('contentServices')
 <div>
     <p><img src="images/services/work25.jpeg" alt="" class="img-fluid"></p>
     <h2 class="mb-3">Que debo conocer antes de realizar un mantenimiento a la piscina</h2>

@@ -15,6 +15,9 @@ Route::get('project', function () {
 Route::get('contact', function () {
     return view('page.contact');
 });
+Route::get('preguntas_frecuentes', function () {
+    return view('modules.services.frequentQuestions');
+});
 Route::get('piscinas', function () {
     return view('modules.services.piscinas');
 });
