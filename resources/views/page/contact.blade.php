@@ -3,7 +3,7 @@
 @Push('styles')
     <style>
       .ftco-section {
-        padding: 4em 0 !important;
+        padding: 8em 0 !important;
         position: relative;
       }
     </style>
@@ -72,7 +72,7 @@
                             </div>
                             <div class="col-md-5 d-flex align-items-stretch">
                                 <div class="info-wrap bg-primary w-100 p-lg-5 p-4">
-                                    <h3 class="mb-4 mt-md-4">Contact us</h3>
+                                    <h3 class="mb-4 mt-md-4">Contactenos</h3>
                             <div class="dbox w-100 d-flex align-items-start">
                                 <div class="icon d-flex align-items-center justify-content-center">
                                     <span class="fa fa-map-marker"></span>
@@ -86,7 +86,7 @@
                                     <span class="fa fa-phone"></span>
                                 </div>
                                 <div class="text pl-3">
-                                <p><span>Telefonos:</span> <a href="tel://1234567920">+57 3023573056 - 3233871936
+                                <p><span>Telefonos:</span> <a href="tel://1234567920">+57 3506784338 - 3023573056 
                                 </a></p>
                               </div>
                           </div>
