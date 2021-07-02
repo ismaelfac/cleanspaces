@@ -183,21 +183,22 @@
                         </div>
                         <div class="col-md-8 pl-md-4">
                             <div class="tab-content">
-                                    <div class="tab-pane container p-0 active" id="piscinas">
-                                        <h3><a href="#">Piscinas</a></h3>
-                                        <p style="text-align: justify">Los productos químicos no mantendrán las hojas y los insectos fuera del agua, ni mantendrán limpias indefinidamente las paredes y el piso. Así que no hay excusas.</p>
-                                        <p style="text-align: justify">Además de utilizar cloro u otros productos químicos para mantener la limpieza de la piscina, también es absolutamente necesaria practicar una desinfección regular y completa de la propia construcción.</p>
-                                        <p style="text-align: justify">A continuación describiremos una serie de pasos que deberíamos de verificar y practicar con coherencia:</p>
-                                        <ul>
-                                            <li><span class="fa fa-check"></span>Limpiar las paredes y el fondo</li>
-                                            <li><span class="fa fa-check"></span>Lavar el sistema de filtrado</li>
-                                            <li><span class="fa fa-check"></span>Rellena tu piscina</li>
-                                            <li><span class="fa fa-check"></span>Regular el valor de PH</li>
-                                            <li><span class="fa fa-check"></span>Aplica un tratamiento para el agua</li>
-                                        </ul>
-                                        <div class="col-md-12" style="text-align: right"><a href="#" class="btn btn-outline-warning btn block btn-sm">ver mas...</a></div>
-                                        
-                                        <div class="col-md-12" style="text-align: right"><a href="#" class="btn btn-outline-warning btn block btn-sm">Solicitar Cotizacion</a></div>
+                                <div class="tab-pane container p-0 active" id="piscinas">
+                                    <h3><a href="#">Piscinas</a></h3>
+                                    <p style="text-align: justify">Los productos químicos no mantendrán las hojas y los insectos fuera del agua, ni mantendrán limpias indefinidamente las paredes y el piso. Así que no hay excusas.</p>
+                                    <p style="text-align: justify">Además de utilizar cloro u otros productos químicos para mantener la limpieza de la piscina, también es absolutamente necesaria practicar una desinfección regular y completa de la propia construcción.</p>
+                                    <p style="text-align: justify">A continuación describiremos una serie de pasos que deberíamos de verificar y practicar con coherencia:</p>
+                                    <ul>
+                                        <li><span class="fa fa-check"></span>Limpiar las paredes y el fondo</li>
+                                        <li><span class="fa fa-check"></span>Lavar el sistema de filtrado</li>
+                                        <li><span class="fa fa-check"></span>Rellena tu piscina</li>
+                                        <li><span class="fa fa-check"></span>Regular el valor de PH</li>
+                                        <li><span class="fa fa-check"></span>Aplica un tratamiento para el agua</li>
+                                    </ul>
+                                    <div class="btn-group" role="group" aria-label="Basic example">
+                                        <a href="{{ url('piscinas') }}" class="btn btn-outline-success btn block btn-sm">Conoce mas...</a>
+                                        <a href="#" class="btn btn-outline-success btn block btn-sm">Solicitar Cotizacion</a>
+                                    </div>
                                 </div>
                                 <div class="tab-pane container p-0" id="tanques">
                                     <h3><a href="#">Tanques</a></h3>
@@ -274,7 +275,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 d-flex align-items-stretch">
-                        <div class="img" style="background-image: url(images/about.jpg); height: 50%;"></div>
+                        <div class="img" style="background-image: url(images/about.jpg); height: 100%;"></div>
                     </div>
                 </div>
             </div>
