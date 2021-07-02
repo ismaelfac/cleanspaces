@@ -114,6 +114,4 @@
             </div>
     </div>
 </section>
-
-<div id="map" class="map"></div>
 @endsection
