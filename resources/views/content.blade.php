@@ -298,7 +298,7 @@
                             </a>
                     <div class="desc w-100 px-4">
                         <div class="text w-100 mb-3">
-                            <h2><a href="work-single.html">Limpieza de Fachadas</a></h2>
+                            <h2><a href="{{ url('preguntas_frecuentes') }}">Limpieza de Fachadas</a></h2>
                             <span>Edificios, Casas, Industrias </span>
                         </div>
                     </div>
@@ -311,7 +311,7 @@
                             </a>
                     <div class="desc w-100 px-4">
                     <div class="text w-100 mb-3">
-                        <h2><a href="work-single.html">Impermeabilización</a></h2>
+                        <h2><a href="{{ url('preguntas_frecuentes') }}">Impermeabilización</a></h2>
                         <span>Empresa, Casas Comerciales, Bodegas</span>
                     </div>
                 </div>
@@ -324,7 +324,7 @@
                             </a>
                     <div class="desc w-100 px-4">
                     <div class="text w-100 mb-3">
-                        <h2><a href="work-single.html">Limpieza y lavado de muebles</a></h2>
+                        <h2><a href="{{ url('preguntas_frecuentes') }}">Limpieza y lavado de muebles</a></h2>
                         <span>Empresa, Casas Comerciales, Bodegas</span>
                     </div>
                 </div>
@@ -337,7 +337,7 @@
                             </a>
                     <div class="desc w-100 px-4">
                     <div class="text w-100 mb-3">
-                        <h2><a href="work-single.html">Mantenimientos Locativos</a></h2>
+                        <h2><a href="{{ url('preguntas_frecuentes') }}">Mantenimientos Locativos</a></h2>
                         <span>Empresa, Casas Comerciales, Bodegas</span>
                     </div>
                 </div>
@@ -351,7 +351,7 @@
                             </a>
                     <div class="desc w-100 px-4">
                     <div class="text w-100 mb-3">
-                        <h2><a href="work-single.html">Aseo y Limpieza</a></h2>
+                        <h2><a href="{{ url('preguntas_frecuentes') }}">Aseo y Limpieza</a></h2>
                         <span>Empresa, Casas Comerciales, Bodegas</span>
                     </div>
                 </div>
@@ -364,7 +364,7 @@
                             </a>
                     <div class="desc w-100 px-4">
                     <div class="text w-100 mb-3">
-                        <h2><a href="work-single.html">Mantenimientos Aires Acondicionados</a></h2>
+                        <h2><a href="{{ url('preguntas_frecuentes') }}">Mantenimientos Aires Acondicionados</a></h2>
                         <span>Empresa, Casas Comerciales, Bodegas</span>
                     </div>
                 </div>
@@ -377,7 +377,7 @@
                             </a>
                     <div class="desc w-100 px-4">
                     <div class="text w-100 mb-3">
-                        <h2><a href="work-single.html">Jardineria</a></h2>
+                        <h2><a href="{{ url('preguntas_frecuentes') }}">Jardineria</a></h2>
                         <span>Empresa, Casas Comerciales, Bodegas</span>
                     </div>
                 </div>
@@ -391,7 +391,7 @@
                             </a>
                     <div class="desc w-100 px-4">
                     <div class="text w-100 mb-3">
-                        <h2><a href="work-single.html">Mantenimiento de Psicinas</a></h2>
+                        <h2><a href="{{ url('preguntas_frecuentes') }}">Mantenimiento de Psicinas</a></h2>
                         <span>Empresa, Casas Comerciales, Bodegas</span>
                     </div>
                 </div>
@@ -417,27 +417,12 @@
                         <div class="testimony-wrap py-4">
                             <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
                         <div class="text">
-                            <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                            <p class="mb-4" style="text-align: justify"><b>CleanSpaces</b> nos ha materializado nuestros proyectos de obras civils, y mantenimientos de nuestras locaciones. con una excelente mano de obra y servicio al cliente. </p>
                             <div class="d-flex align-items-center">
-                                <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+                                <div class="user-img" style="background-image: url(images/our_clients/aliados.png)"></div>
                                 <div class="pl-3">
-                                    <p class="name">Roger Scott</p>
-                                    <span class="position">Administrador XYZ</span>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-wrap py-4">
-                            <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div> 
-                        <div class="text">
-                            <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                            <div class="d-flex align-items-center">
-                                <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-                                <div class="pl-3">
-                                    <p class="name">Roger Scott</p>
-                                    <span class="position">Marketing Manager</span>
+                                    <p class="name">Coordinadora</p>
+                                    <span class="position"> Administrativa</span>
                                 </div>
                             </div>
                         </div>
@@ -447,12 +432,12 @@
                         <div class="testimony-wrap py-4">
                             <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
                         <div class="text">
-                            <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <p class="mb-4" style="text-align: justify"><b>CleanSpaces</b> nos ha materializado nuestros proyectos de obras civils, y mantenimientos de nuestras locaciones. con una excelente mano de obra y servicio al cliente. </p>
                             <div class="d-flex align-items-center">
-                                <div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
+                                <div class="user-img" style="background-image: url(images/our_clients/aliados.png)"></div>
                                 <div class="pl-3">
-                                    <p class="name">Roger Scott</p>
-                                    <span class="position">Marketing Manager</span>
+                                    <p class="name">Coordinadora</p>
+                                    <span class="position"> Administrativa</span>
                                 </div>
                             </div>
                         </div>
@@ -462,12 +447,12 @@
                         <div class="testimony-wrap py-4">
                             <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
                         <div class="text">
-                            <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <p class="mb-4" style="text-align: justify"><b>CleanSpaces</b> nos ha materializado nuestros proyectos de obras civils, y mantenimientos de nuestras locaciones. con una excelente mano de obra y servicio al cliente. </p>
                             <div class="d-flex align-items-center">
-                                <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+                                <div class="user-img" style="background-image: url(images/our_clients/aliados.png)"></div>
                                 <div class="pl-3">
-                                    <p class="name">Roger Scott</p>
-                                    <span class="position">Marketing Manager</span>
+                                    <p class="name">Coordinadora</p>
+                                    <span class="position"> Administrativa</span>
                                 </div>
                             </div>
                         </div>
@@ -477,12 +462,27 @@
                         <div class="testimony-wrap py-4">
                             <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
                         <div class="text">
-                            <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <p class="mb-4" style="text-align: justify"><b>CleanSpaces</b> nos ha materializado nuestros proyectos de obras civils, y mantenimientos de nuestras locaciones. con una excelente mano de obra y servicio al cliente. </p>
                             <div class="d-flex align-items-center">
-                                <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+                                <div class="user-img" style="background-image: url(images/our_clients/aliados.png)"></div>
                                 <div class="pl-3">
-                                    <p class="name">Roger Scott</p>
-                                    <span class="position">Marketing Manager</span>
+                                    <p class="name">Coordinadora</p>
+                                    <span class="position"> Administrativa</span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap py-4">
+                            <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                        <div class="text">
+                            <p class="mb-4" style="text-align: justify"><b>CleanSpaces</b> nos ha materializado nuestros proyectos de obras civils, y mantenimientos de nuestras locaciones. con una excelente mano de obra y servicio al cliente. </p>
+                            <div class="d-flex align-items-center">
+                                <div class="user-img" style="background-image: url(images/our_clients/aliados.png)"></div>
+                                <div class="pl-3">
+                                    <p class="name">Coordinadora</p>
+                                    <span class="position"> Administrativa</span>
                                 </div>
                             </div>
                         </div>
@@ -497,21 +497,20 @@
         <section class="ftco-section">
             <div class="container">
                 <div class="row justify-content-center pb-5 mb-3">
-                <div class="col-md-7 heading-section text-center ftco-animate">
-                    <span class="subheading">Preguntas Frecuentes</span>
-                    <h4>En CleanSpace sabemos que puedes tener dudas. Aqui te brindamos un glosario de preguntas frecuentes </h4>
-                </div>
+                    <div class="col-md-7 heading-section text-center ftco-animate">
+                        <span class="subheading">Preguntas Frecuentes</span>
+                        <h4>En CleanSpace sabemos que puedes tener dudas. Aqui te brindamos un glosario de preguntas frecuentes </h4>
+                    </div>
                 </div>
                 <div class="row d-flex">
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry align-self-stretch">
-                    <a href="#" class="block-20" style="background-image: url('images/services/work25.jpeg');">
+                    <a href="{{ url('preguntas_frecuentes') }}" class="block-20" style="background-image: url('images/services/work25.jpeg');">
                     </a>
                     <div class="text p-3">
                         <div class="posted mb-3 d-flex">
-                            <div class="img author" style="background-image: url(images/person_2.jpg);"></div>
                             <div class="desc pl-3">
-                                <span>Brayan Oconer</span>
+                                <span>Mantenimientos a las piscinas</span>
                                 <span>24 Febrero 2021</span>
                             </div>
                         </div>
@@ -521,33 +520,31 @@
                 </div>
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry align-self-stretch">
-                    <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+                    <a href="{{ url('preguntas_frecuentes') }}" class="block-20" style="background-image: url('images/services/work23.jpg');">
                     </a>
                     <div class="text p-3">
                         <div class="posted mb-3 d-flex">
-                            <div class="img author" style="background-image: url(images/person_3.jpg);"></div>
                             <div class="desc pl-3">
-                                <span>Posted by John doe</span>
-                                <span>24 February 2020</span>
+                                <span>Aires Acondicionados</span>
+                                <span>24 Febrero 2021</span>
                             </div>
                         </div>
-                        <h3 class="heading"><a href="#">How Roofing Charge for Their Services</a></h3>
+                        <h3 class="heading"><a href="{{ url('preguntas_frecuentes') }}">¿Cada cuanto debo realizar mantenimiento a los aires acondicionados?</a></h3>
                     </div>
                     </div>
                 </div>
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry align-self-stretch">
-                    <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+                    <a href="{{ url('preguntas_frecuentes') }}" class="block-20" style="background-image: url('images/services/work26.jpg');">
                     </a>
                     <div class="text p-3">
                         <div class="posted mb-3 d-flex">
-                            <div class="img author" style="background-image: url(images/person_1.jpg);"></div>
                             <div class="desc pl-3">
-                                <span>Posted by John doe</span>
-                                <span>24 February 2020</span>
+                                <span>Impermeabilización</a></span>
+                                <span>24 Marzo 2021</span>
                             </div>
                         </div>
-                        <h3 class="heading"><a href="#">How Roofing Charge for Their Services</a></h3>
+                        <h3 class="heading"><a href="{{ url('preguntas_frecuentes') }}">¿Cuál es el mejor impermeabilizante para techos?</a></h3>
                     </div>
                     </div>
                 </div>

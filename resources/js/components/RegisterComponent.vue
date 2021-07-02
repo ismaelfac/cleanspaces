@@ -21,20 +21,20 @@
         </div>
         <div class="col-md-6">
             <div class="form-group">
-<input type="text" class="form-control input-space" placeholder="Email">
-</div>
+                <input type="text" class="form-control input-space" placeholder="Email">
+            </div>
         </div>
         <div class="col-md-6">
             <div class="form-group">
-            <div class="input-wrap">
-        <div class="icon"><span class="fa fa-calendar"></span></div>
-        <input type="text" class="form-control input-space appointment_date" placeholder="Date">
-    </div>
-        </div>
+                <div class="input-wrap">
+                    <div class="icon"><span class="fa fa-calendar"></span></div>
+                    <input type="text" class="form-control input-space appointment_date" placeholder="Date">
+                </div>
+            </div>
         </div>
         <div class="col-md-12">
             <div class="form-group">
-                <textarea name="" id="" cols="30" rows="2" class="form-control input-space" placeholder="Message"></textarea>
+                <textarea name="messageRegister" id="messageRegister" cols="30" rows="2" class="form-control input-space" placeholder="Message"></textarea>
             </div>
         </div>
     </div>
