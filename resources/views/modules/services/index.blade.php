@@ -36,8 +36,8 @@
             <div class="container">
               <div class="row justify-content-center pb-5 mb-3">
                 <div class="col-md-12 heading-section text-center ftco-animate">
-                  <span class="subheading">Price &amp; Plans</span>
-                  <h2>Pricing</h2>
+                  <span class="subheading">Nuestros Servicios</span>
+                  <h2>Consulte con nosotros</h2>
                 </div>
               </div>
               <div class="row">
@@ -137,53 +137,39 @@
             </div>
 
             <div class="sidebar-box ftco-animate">
-              <h3>Recent Blog</h3>
+              <h3>Preguntas Frecuentes</h3>
               <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+                <a class="blog-img mr-4" style="background-image: url(images/services/work25.jpeg);"></a>
                 <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                  <h3 class="heading"><a href="{{ url('preguntas_frecuentes') }}">Que debo conocer antes de realizar un mantenimiento a la piscina</a></h3>
                   <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span>Mar. 24, 2020</a></div>
+                    <div><a href="#"><span class="icon-calendar"></span>24 Febrero 2021</a></div>
                     <div><a href="#"><span class="icon-person"></span> Admin</a></div>
                     <div><a href="#"><span class="icon-chat"></span> 19</a></div>
                   </div>
                 </div>
               </div>
               <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+                <a class="blog-img mr-4" style="background-image: url(images/services/work23.jpg);"></a>
                 <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                  <h3 class="heading"><a href="{{ url('preguntas_frecuentes') }}">¿Cada cuanto debo realizar mantenimiento a los aires acondicionados?</a></h3>
                   <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span>Mar. 24, 2020</a></div>
+                    <div><a href="#"><span class="icon-calendar"></span>24 Febrero 2021</a></div>
                     <div><a href="#"><span class="icon-person"></span> Admin</a></div>
                     <div><a href="#"><span class="icon-chat"></span> 19</a></div>
                   </div>
                 </div>
               </div>
               <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_3.jpg);"></a>
+                <a class="blog-img mr-4" style="background-image: url(images/services/work26.jpg);"></a>
                 <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                  <h3 class="heading"><a href="{{ url('preguntas_frecuentes') }}">¿Cuál es el mejor impermeabilizante para techos?</a></h3>
                   <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span>Mar. 24, 2020</a></div>
+                    <div><a href="#"><span class="icon-calendar"></span>24 Marzo 2021</a></div>
                     <div><a href="#"><span class="icon-person"></span> Admin</a></div>
                     <div><a href="#"><span class="icon-chat"></span> 19</a></div>
                   </div>
                 </div>
-              </div>
-            </div>
-
-            <div class="sidebar-box ftco-animate">
-              <h3>Tag Cloud</h3>
-              <div class="tagcloud">
-                <a href="#" class="tag-cloud-link">roof</a>
-                <a href="#" class="tag-cloud-link">home</a>
-                <a href="#" class="tag-cloud-link">repair</a>
-                <a href="#" class="tag-cloud-link">renovate</a>
-                <a href="#" class="tag-cloud-link">mechanics</a>
-                <a href="#" class="tag-cloud-link">residential</a>
-                <a href="#" class="tag-cloud-link">industrial</a>
-                <a href="#" class="tag-cloud-link">gutter</a>
               </div>
             </div>
           </div>
