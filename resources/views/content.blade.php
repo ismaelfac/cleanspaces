@@ -282,124 +282,124 @@
         </section>
 
         <section class="ftco-section ftco-no-pb ftco-no-pt">
-                <div class="container">
-                    <div class="row justify-content-center pb-5 mb-3">
-            <div class="col-md-7 heading-section text-center ftco-animate">
-                <span class="subheading">Proyectos</span>
-                <h2>Algunos Proyectos</h2>
-            </div>
-            </div>
+            <div class="container">
+                <div class="row justify-content-center pb-5 mb-3">
+                    <div class="col-md-7 heading-section text-center ftco-animate">
+                        <span class="subheading">Proyectos</span>
+                        <h2>Algunos Proyectos</h2>
+                    </div>
                 </div>
-                <div class="container-fluid px-md-0">
-                    <div class="row no-gutters">
-            <div class="col-md-3 ftco-animate">
-                <div class="work img d-flex align-items-end" style="background-image: url(images/services/work1.jpeg);">
-                    <a href="images/services/work14.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
-                                <span class="fa fa-expand"></span>
-                            </a>
-                    <div class="desc w-100 px-4">
-                        <div class="text w-100 mb-3">
-                            <h2><a href="{{ url('preguntas_frecuentes') }}">Limpieza de Fachadas</a></h2>
-                            <span>Edificios, Casas, Industrias </span>
+            </div>
+            <div class="container-fluid px-md-0">
+                <div class="row no-gutters">
+                    <div class="col-md-3 ftco-animate">
+                        <div class="work img d-flex align-items-end" style="background-image: url(images/services/work1.jpeg);">
+                            <a href="images/services/work14.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                        <span class="fa fa-expand"></span>
+                                    </a>
+                            <div class="desc w-100 px-4">
+                                <div class="text w-100 mb-3">
+                                    <h2><a href="{{ url('preguntas_frecuentes') }}">Limpieza de Fachadas</a></h2>
+                                    <span>Edificios, Casas, Industrias </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ftco-animate">
+                        <div class="work img d-flex align-items-end" style="background-image: url(images/services/work2.jpeg);">
+                            <a href="images/services/work21.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                        <span class="fa fa-expand"></span>
+                                    </a>
+                            <div class="desc w-100 px-4">
+                            <div class="text w-100 mb-3">
+                                <h2><a href="{{ url('preguntas_frecuentes') }}">Impermeabilización</a></h2>
+                                <span>Empresa, Casas Comerciales, Bodegas</span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ftco-animate">
+                        <div class="work img d-flex align-items-end" style="background-image: url(images/services/work3.jpeg);">
+                            <a href="images/services/work3.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                        <span class="fa fa-expand"></span>
+                                    </a>
+                            <div class="desc w-100 px-4">
+                            <div class="text w-100 mb-3">
+                                <h2><a href="{{ url('preguntas_frecuentes') }}">Limpieza y lavado de muebles</a></h2>
+                                <span>Empresa, Casas Comerciales, Bodegas</span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ftco-animate">
+                        <div class="work img d-flex align-items-end" style="background-image: url(images/services/work4.jpeg);">
+                            <a href="images/services/work9.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                        <span class="fa fa-expand"></span>
+                                    </a>
+                            <div class="desc w-100 px-4">
+                            <div class="text w-100 mb-3">
+                                <h2><a href="{{ url('preguntas_frecuentes') }}">Mantenimientos Locativos</a></h2>
+                                <span>Empresa, Casas Comerciales, Bodegas</span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 ftco-animate">
+                        <div class="work img d-flex align-items-end" style="background-image: url(images/services/work18.jpeg);">
+                            <a href="images/services/work17.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                        <span class="fa fa-expand"></span>
+                                    </a>
+                            <div class="desc w-100 px-4">
+                            <div class="text w-100 mb-3">
+                                <h2><a href="{{ url('preguntas_frecuentes') }}">Aseo y Limpieza</a></h2>
+                                <span>Empresa, Casas Comerciales, Bodegas</span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ftco-animate">
+                        <div class="work img d-flex align-items-end" style="background-image: url(images/services/work23.jpg);">
+                            <a href="images/services/work22.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                        <span class="fa fa-expand"></span>
+                                    </a>
+                            <div class="desc w-100 px-4">
+                            <div class="text w-100 mb-3">
+                                <h2><a href="{{ url('preguntas_frecuentes') }}">Mantenimientos Aires Acondicionados</a></h2>
+                                <span>Empresa, Casas Comerciales, Bodegas</span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ftco-animate">
+                        <div class="work img d-flex align-items-end" style="background-image: url(images/services/work7.jpeg);">
+                            <a href="images/services/work10.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                        <span class="fa fa-expand"></span>
+                                    </a>
+                            <div class="desc w-100 px-4">
+                            <div class="text w-100 mb-3">
+                                <h2><a href="{{ url('preguntas_frecuentes') }}">Jardineria</a></h2>
+                                <span>Empresa, Casas Comerciales, Bodegas</span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 ftco-animate">
+                        <div class="work img d-flex align-items-end" style="background-image: url(images/services/work24.jpg);">
+                            <a href="images/services/work25.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                        <span class="fa fa-expand"></span>
+                                    </a>
+                            <div class="desc w-100 px-4">
+                            <div class="text w-100 mb-3">
+                                <h2><a href="{{ url('preguntas_frecuentes') }}">Mantenimiento de Psicinas</a></h2>
+                                <span>Empresa, Casas Comerciales, Bodegas</span>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 ftco-animate">
-                <div class="work img d-flex align-items-end" style="background-image: url(images/services/work2.jpeg);">
-                    <a href="images/services/work21.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
-                                <span class="fa fa-expand"></span>
-                            </a>
-                    <div class="desc w-100 px-4">
-                    <div class="text w-100 mb-3">
-                        <h2><a href="{{ url('preguntas_frecuentes') }}">Impermeabilización</a></h2>
-                        <span>Empresa, Casas Comerciales, Bodegas</span>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="col-md-3 ftco-animate">
-                <div class="work img d-flex align-items-end" style="background-image: url(images/services/work3.jpeg);">
-                    <a href="images/services/work3.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
-                                <span class="fa fa-expand"></span>
-                            </a>
-                    <div class="desc w-100 px-4">
-                    <div class="text w-100 mb-3">
-                        <h2><a href="{{ url('preguntas_frecuentes') }}">Limpieza y lavado de muebles</a></h2>
-                        <span>Empresa, Casas Comerciales, Bodegas</span>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="col-md-3 ftco-animate">
-                <div class="work img d-flex align-items-end" style="background-image: url(images/services/work4.jpeg);">
-                    <a href="images/services/work9.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
-                                <span class="fa fa-expand"></span>
-                            </a>
-                    <div class="desc w-100 px-4">
-                    <div class="text w-100 mb-3">
-                        <h2><a href="{{ url('preguntas_frecuentes') }}">Mantenimientos Locativos</a></h2>
-                        <span>Empresa, Casas Comerciales, Bodegas</span>
-                    </div>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 ftco-animate">
-                <div class="work img d-flex align-items-end" style="background-image: url(images/services/work18.jpeg);">
-                    <a href="images/services/work17.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
-                                <span class="fa fa-expand"></span>
-                            </a>
-                    <div class="desc w-100 px-4">
-                    <div class="text w-100 mb-3">
-                        <h2><a href="{{ url('preguntas_frecuentes') }}">Aseo y Limpieza</a></h2>
-                        <span>Empresa, Casas Comerciales, Bodegas</span>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="col-md-3 ftco-animate">
-                <div class="work img d-flex align-items-end" style="background-image: url(images/services/work23.jpg);">
-                    <a href="images/services/work22.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-                                <span class="fa fa-expand"></span>
-                            </a>
-                    <div class="desc w-100 px-4">
-                    <div class="text w-100 mb-3">
-                        <h2><a href="{{ url('preguntas_frecuentes') }}">Mantenimientos Aires Acondicionados</a></h2>
-                        <span>Empresa, Casas Comerciales, Bodegas</span>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="col-md-3 ftco-animate">
-                <div class="work img d-flex align-items-end" style="background-image: url(images/services/work7.jpeg);">
-                    <a href="images/services/work10.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
-                                <span class="fa fa-expand"></span>
-                            </a>
-                    <div class="desc w-100 px-4">
-                    <div class="text w-100 mb-3">
-                        <h2><a href="{{ url('preguntas_frecuentes') }}">Jardineria</a></h2>
-                        <span>Empresa, Casas Comerciales, Bodegas</span>
-                    </div>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 ftco-animate">
-                <div class="work img d-flex align-items-end" style="background-image: url(images/services/work24.jpg);">
-                    <a href="images/services/work25.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
-                                <span class="fa fa-expand"></span>
-                            </a>
-                    <div class="desc w-100 px-4">
-                    <div class="text w-100 mb-3">
-                        <h2><a href="{{ url('preguntas_frecuentes') }}">Mantenimiento de Psicinas</a></h2>
-                        <span>Empresa, Casas Comerciales, Bodegas</span>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </div>
-                </div>
         </section>
 
 

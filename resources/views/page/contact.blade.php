@@ -8,8 +8,8 @@
       }
     </style>
 @endpush
-@section('header')
-<section class="menu-wrap flex-md-column-reverse d-md-flex">
+@section('content')
+<section class="menu-wrap flex-md-column-reverse d-md-flex" style="margin-top:120px">
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,8 +27,6 @@
         </div>
     </nav>
 </section>
-@endsection
-@section('content')
 <section class="ftco-section bg-light">
     <div class="container">
         <div class="row justify-content-center">

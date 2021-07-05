@@ -1,143 +1,159 @@
 @extends('content')
 @section('title') Proyectos @endsection
+@Push('styles')
+    <style>
+      .ftco-section {
+        padding: 8em 0 !important;
+        position: relative;
+      }
+    </style>
+@endpush
 @section('content')
-<div class="container">
-    <div class="row">
-        <section class="ftco-section">
+    <section class="menu-wrap flex-md-column-reverse d-md-flex" style="margin-top:120px">
+        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
             <div class="container">
-                <div class="row justify-content-center mb-5">
-            <div class="col-md-8 text-center heading-section ftco-animate">
-                <h2 class="mb-4">Proyectos</h2>
-            </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9">
-                    <div class="row tabulation mt-4 ftco-animate">
-                        <div class="col-md-4">
-                            <ul class="nav nav-pills nav-fill d-md-flex d-block flex-column">
-                                <li class="nav-item text-left">
-                                    <a class="nav-link active py-4" data-toggle="tab" href="#services-1"><span class="flaticon-roof mr-2"></span> Piscinas</a>
-                                </li>
-                                <li class="nav-item text-left">
-                                    <a class="nav-link py-4" data-toggle="tab" href="#services-2"><span class="flaticon-roof-1 mr-2"></span> Impermeabilización</a>
-                                </li>
-                                <li class="nav-item text-left">
-                                    <a class="nav-link py-4" data-toggle="tab" href="#services-3"><span class="flaticon-roof-5 mr-2"></span>Mantenimiento Industrial</a>
-                                </li>
-                                <li class="nav-item text-left">
-                                    <a class="nav-link py-4" data-toggle="tab" href="#services-4"><span class="flaticon-roof-2 mr-2"></span>Mantenimiento Residential</a>
-                                </li>
-                                <li class="nav-item text-left">
-                                    <a class="nav-link py-4" data-toggle="tab" href="#services-5"><span class="flaticon-roof-3 mr-2"></span> Lavados</a>
-                                </li>
-                                <li class="nav-item text-left">
-                                    <a class="nav-link py-4" data-toggle="tab" href="#services-6"><span class="flaticon-roof-4 mr-2"></span> Fumigaciones</a>
-                                </li>
-                                <li class="nav-item text-left">
-                                    <a class="nav-link border-bottom py-4" data-toggle="tab" href="#services-7"><span class="flaticon-roof-7 mr-2"></span> Otros Servicios</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-8 pl-md-4">
-                            <div class="tab-content">
-                                <div class="tab-pane container p-0 active" id="services-1">
-                                    <h3><a href="#">Piscinas</a></h3>
-                                    <p style="text-align: justify">Los productos químicos no mantendrán las hojas y los insectos fuera del agua, ni mantendrán limpias indefinidamente las paredes y el piso. Así que no hay excusas.</p>
-                                    <p style="text-align: justify">Además de utilizar cloro u otros productos químicos para mantener la limpieza de la piscina, también es absolutamente necesaria practicar una desinfección regular y completa de la propia construcción.</p>
-                                    <p style="text-align: justify">A continuación describiremos una serie de pasos que deberíamos de verificar y practicar con coherencia:</p>
-                                    <ul>
-                                        <li><span class="fa fa-check"></span>Limpiar las paredes y el fondo</li>
-                                        <li><span class="fa fa-check"></span>Lavar el sistema de filtrado</li>
-                                        <li><span class="fa fa-check"></span>Rellena tu piscina</li>
-                                        <li><span class="fa fa-check"></span>Regular el valor de PH</li>
-                                        <li><span class="fa fa-check"></span>Aplica un tratamiento para el agua</li>
-                                    </ul>
-
-                                </div>
-                            <div class="tab-pane container p-0 fade" id="services-2">
-                                    <h3><a href="#">Impermeabilización</a></h3>
-                                    <p style="text-align: justify;">La impermeabilización de losas, cubiertas y terrazas es muy importante para las edificaciones, ya que el agua es uno de los agentes más agresivos para los materiales de la construcción.</p>
-                                    <p style="text-align: justify;">Pero la impermeabilización no solo es primordial para los edificios de vivienda e industria, si no también por ejemplo, en presas y tanques, ya que refuerza la contención de la estructura. Así mismo, en las redes por donde circula el agua (alcantarillado o tuberías) previene la contaminación del agua.</p>
-                                    <p style="text-align: justify;">Existen muchos tipos de impermeabilizantes, aunque siempre hay algunos que ofrecen mejores resultados que otros. En el momento de seleccionar un sistema de impermeabilización se debe estar enterado de las características principales del producto para seleccionar el adecuado.</p>
-                                    <ul>
-                                        <li><span class="fa fa-check"></span>Acrílicos: impermeabilizantes a base de resinas acrílicas.</li>
-                                        <li><span class="fa fa-check"></span>Cementicos: resistentes a los exteriores.</li>
-                                        <li><span class="fa fa-check"></span>Acrílico – cementico: es un sistema semi-rígido por lo que tiene capacidad de movimiento</li>
-                                        <li><span class="fa fa-check"></span>Poliuretanos modificados con asfalto:</li>
-                                        <li><span class="fa fa-check"></span>Polureas en frío</li>
-                                    </ul>
-                            </div>
-                            <div class="tab-pane container p-0 fade" id="services-3">
-                                    <h3><a href="#">Mantenimiento Industrial</a></h3>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-                                    <ul>
-                                        <li><span class="fa fa-check"></span>The Big Oxmox advised her not to do so</li>
-                                        <li><span class="fa fa-check"></span>Far far away, behind the word mountains</li>
-                                        <li><span class="fa fa-check"></span>Separated they live in Bookmarksgrove</li>
-                                        <li><span class="fa fa-check"></span>She packed her seven versalia</li>
-                                        <li><span class="fa fa-check"></span>Little Blind Text didn’t listen</li>
-                                    </ul>
-                            </div>
-                            <div class="tab-pane container p-0 fade" id="services-4">
-                                    <h3><a href="#">Mantenimiento Residencial</a></h3>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-                                    <ul>
-                                        <li><span class="fa fa-check"></span>The Big Oxmox advised her not to do so</li>
-                                        <li><span class="fa fa-check"></span>Far far away, behind the word mountains</li>
-                                        <li><span class="fa fa-check"></span>Separated they live in Bookmarksgrove</li>
-                                        <li><span class="fa fa-check"></span>She packed her seven versalia</li>
-                                        <li><span class="fa fa-check"></span>Little Blind Text didn’t listen</li>
-                                    </ul>
-                            </div>
-                            <div class="tab-pane container p-0 fade" id="services-5">
-                                    <h3><a href="#">Lavados</a></h3>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-                                    <ul>
-                                        <li><span class="fa fa-check"></span>The Big Oxmox advised her not to do so</li>
-                                        <li><span class="fa fa-check"></span>Far far away, behind the word mountains</li>
-                                        <li><span class="fa fa-check"></span>Separated they live in Bookmarksgrove</li>
-                                        <li><span class="fa fa-check"></span>She packed her seven versalia</li>
-                                        <li><span class="fa fa-check"></span>Little Blind Text didn’t listen</li>
-                                    </ul>
-                            </div>
-                            <div class="tab-pane container p-0 fade" id="services-6">
-                                    <h3><a href="#">Fumigaciones</a></h3>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-                                    <ul>
-                                        <li><span class="fa fa-check"></span>The Big Oxmox advised her not to do so</li>
-                                        <li><span class="fa fa-check"></span>Far far away, behind the word mountains</li>
-                                        <li><span class="fa fa-check"></span>Separated they live in Bookmarksgrove</li>
-                                        <li><span class="fa fa-check"></span>She packed her seven versalia</li>
-                                        <li><span class="fa fa-check"></span>Little Blind Text didn’t listen</li>
-                                    </ul>
-                            </div>
-                            <div class="tab-pane container p-0 fade" id="services-7">
-                                    <h3><a href="#">Otros Servicios</a></h3>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-                                    <ul>
-                                        <li><span class="fa fa-check"></span>The Big Oxmox advised her not to do so</li>
-                                        <li><span class="fa fa-check"></span>Far far away, behind the word mountains</li>
-                                        <li><span class="fa fa-check"></span>Separated they live in Bookmarksgrove</li>
-                                        <li><span class="fa fa-check"></span>She packed her seven versalia</li>
-                                        <li><span class="fa fa-check"></span>Little Blind Text didn’t listen</li>
-                                    </ul>
-                            </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 d-flex align-items-stretch">
-                        <div class="img" style="background-image: url(images/about.jpg);"></div>
-                    </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span> Menu
+                </button>
+                <div class="collapse navbar-collapse" id="ftco-nav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a href="{{ url('/')}}" class="nav-link">Inicio</a></li>
+                        <li class="nav-item"><a href="{{ url('about')}}" class="nav-link">Sobre Nosotros</a></li>
+                        <li class="nav-item"><a href="{{ url('services')}}" class="nav-link">Servicios</a></li>
+                        <li class="nav-item active"><a href="{{ url('project')}}" class="nav-link">Proyectos</a></li>
+                        <li class="nav-item"><a href="{{ url('contact')}}" class="nav-link">Contactenos</a></li>
+                    </ul>
                 </div>
-
             </div>
-        </section>
-    </div>
-</div>
+        </nav>
+    </section>
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row no-gutters">
+            <div class="row no-gutters">
+                    <div class="col-md-3 ftco-animate">
+                        <div class="work img d-flex align-items-end" style="background-image: url(images/services/work1.jpeg);">
+                            <a href="images/services/work14.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                        <span class="fa fa-expand"></span>
+                                    </a>
+                            <div class="desc w-100 px-4">
+                                <div class="text w-100 mb-3">
+                                    <h2><a href="{{ url('preguntas_frecuentes') }}">Limpieza de Fachadas</a></h2>
+                                    <span>Edificios, Casas, Industrias </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ftco-animate">
+                        <div class="work img d-flex align-items-end" style="background-image: url(images/services/work2.jpeg);">
+                            <a href="images/services/work21.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                        <span class="fa fa-expand"></span>
+                                    </a>
+                            <div class="desc w-100 px-4">
+                            <div class="text w-100 mb-3">
+                                <h2><a href="{{ url('preguntas_frecuentes') }}">Impermeabilización</a></h2>
+                                <span>Empresa, Casas Comerciales, Bodegas</span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ftco-animate">
+                        <div class="work img d-flex align-items-end" style="background-image: url(images/services/work3.jpeg);">
+                            <a href="images/services/work3.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                        <span class="fa fa-expand"></span>
+                                    </a>
+                            <div class="desc w-100 px-4">
+                            <div class="text w-100 mb-3">
+                                <h2><a href="{{ url('preguntas_frecuentes') }}">Limpieza y lavado de muebles</a></h2>
+                                <span>Empresa, Casas Comerciales, Bodegas</span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ftco-animate">
+                        <div class="work img d-flex align-items-end" style="background-image: url(images/services/work4.jpeg);">
+                            <a href="images/services/work9.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                        <span class="fa fa-expand"></span>
+                                    </a>
+                            <div class="desc w-100 px-4">
+                            <div class="text w-100 mb-3">
+                                <h2><a href="{{ url('preguntas_frecuentes') }}">Mantenimientos Locativos</a></h2>
+                                <span>Empresa, Casas Comerciales, Bodegas</span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 ftco-animate">
+                        <div class="work img d-flex align-items-end" style="background-image: url(images/services/work18.jpeg);">
+                            <a href="images/services/work17.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                        <span class="fa fa-expand"></span>
+                                    </a>
+                            <div class="desc w-100 px-4">
+                            <div class="text w-100 mb-3">
+                                <h2><a href="{{ url('preguntas_frecuentes') }}">Aseo y Limpieza</a></h2>
+                                <span>Empresa, Casas Comerciales, Bodegas</span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ftco-animate">
+                        <div class="work img d-flex align-items-end" style="background-image: url(images/services/work23.jpg);">
+                            <a href="images/services/work22.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                        <span class="fa fa-expand"></span>
+                                    </a>
+                            <div class="desc w-100 px-4">
+                            <div class="text w-100 mb-3">
+                                <h2><a href="{{ url('preguntas_frecuentes') }}">Mantenimientos Aires Acondicionados</a></h2>
+                                <span>Empresa, Casas Comerciales, Bodegas</span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ftco-animate">
+                        <div class="work img d-flex align-items-end" style="background-image: url(images/services/work7.jpeg);">
+                            <a href="images/services/work10.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                        <span class="fa fa-expand"></span>
+                                    </a>
+                            <div class="desc w-100 px-4">
+                            <div class="text w-100 mb-3">
+                                <h2><a href="{{ url('preguntas_frecuentes') }}">Jardineria</a></h2>
+                                <span>Empresa, Casas Comerciales, Bodegas</span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 ftco-animate">
+                        <div class="work img d-flex align-items-end" style="background-image: url(images/services/work24.jpg);">
+                            <a href="images/services/work25.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                        <span class="fa fa-expand"></span>
+                                    </a>
+                            <div class="desc w-100 px-4">
+                            <div class="text w-100 mb-3">
+                                <h2><a href="{{ url('preguntas_frecuentes') }}">Mantenimiento de Psicinas</a></h2>
+                                <span>Empresa, Casas Comerciales, Bodegas</span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        <div class="row mt-5">
+            <div class="col text-center">
+                <div class="block-27">
+                    <ul>
+                    <li><a href="#">&lt;</a></li>
+                    <li class="active"><span>1</span></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">&gt;</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>	
 @endsection

@@ -30,7 +30,7 @@
               </ul>
           </div>
           <div class="col-md-8 pl-md-4">
-              <div class="tab-content">
+                <div class="tab-content">
                     <div class="tab-pane container p-0 active" id="piscinas">
                         <h3><a href="#">Piscinas</a></h3>
                         <p style="text-align: justify">Los productos químicos no mantendrán las hojas y los insectos fuera del agua, ni mantendrán limpias indefinidamente las paredes y el piso. Así que no hay excusas.</p>
@@ -53,15 +53,15 @@
                             <li><span class="fa fa-check"></span><a href="#">¿Cómo contratar a CleanSpaces para la mantención de piscinas?</a></li>
                         </ul>
                         <div class="col-md-12" style="text-align: right"><a href="#" class="btn btn-outline-warning btn block btn-sm">Solicitar Cotizacion</a></div>
-                  </div>
-                  <div class="tab-pane container p-0" id="tanques">
-                      <h3><a href="#">Tanques</a></h3>
-                      <p style="text-align: justify">Los tanques de almacenamiento domiciliario, y sus redes, deben ser sometidos a lavado y desinfección mínimo 2 veces al año y en caso de detectar daños o infiltraciones se debe realizar el lavado y desinfección después de su reparación.</p>
-                      <p style="text-align: justify">Edificios, conjuntos habitacionales, fábricas de alimentos, hospitales, hoteles, colegios, cárceles y demás edificaciones que conglomeren individuos, deben realizar el lavado y desinfección de los tanques de almacenamiento de aguas, colocando un aviso antes de realizar la acción, a fin de que se tomen medidas necesarias ante el corte de agua por lavado y desinfección de los tanques.</p>
-                      <ul>
-                          <li><span class="fa fa-check"></span>Limpiar las paredes y el fondo</li>
-                      </ul>
-                  </div>
+                    </div>
+                    <div class="tab-pane container p-0" id="tanques">
+                        <h3><a href="#">Tanques</a></h3>
+                        <p style="text-align: justify">Los tanques de almacenamiento domiciliario, y sus redes, deben ser sometidos a lavado y desinfección mínimo 2 veces al año y en caso de detectar daños o infiltraciones se debe realizar el lavado y desinfección después de su reparación.</p>
+                        <p style="text-align: justify">Edificios, conjuntos habitacionales, fábricas de alimentos, hospitales, hoteles, colegios, cárceles y demás edificaciones que conglomeren individuos, deben realizar el lavado y desinfección de los tanques de almacenamiento de aguas, colocando un aviso antes de realizar la acción, a fin de que se tomen medidas necesarias ante el corte de agua por lavado y desinfección de los tanques.</p>
+                        <ul>
+                            <li><span class="fa fa-check"></span>Limpiar las paredes y el fondo</li>
+                        </ul>
+                    </div>
                     <div class="tab-pane container p-0 fade" id="impermeabilizacion">
                             <h3><a href="#">Impermeabilización</a></h3>
                             <p style="text-align: justify;">La impermeabilización de losas, cubiertas y terrazas es muy importante para las edificaciones, ya que el agua es uno de los agentes más agresivos para los materiales de la construcción.</p>
@@ -123,7 +123,7 @@
                                 <li><span class="fa fa-check"></span>Little Blind Text didn’t listen</li>
                             </ul>
                     </div>
-              </div>
+                </div>
             </div>
           </div>
       </div>
