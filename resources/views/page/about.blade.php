@@ -104,27 +104,12 @@
                     <div class="testimony-wrap py-4">
                         <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
                     <div class="text">
-                        <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                        <p class="mb-4" style="text-align: justify"><b>CleanSpaces</b> nos ha materializado nuestros proyectos de obras civils, y mantenimientos de nuestras locaciones. con una excelente mano de obra y servicio al cliente. </p>
                         <div class="d-flex align-items-center">
-                            <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+                            <div class="user-img" style="background-image: url(images/our_clients/aliados.png)"></div>
                             <div class="pl-3">
-                                <p class="name">Roger Scott</p>
-                                <span class="position">Administrador XYZ</span>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="testimony-wrap py-4">
-                        <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div> 
-                    <div class="text">
-                        <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                        <div class="d-flex align-items-center">
-                            <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-                            <div class="pl-3">
-                                <p class="name">Roger Scott</p>
-                                <span class="position">Marketing Manager</span>
+                                <p class="name">Coordinadora</p>
+                                <span class="position"> Administrativa</span>
                             </div>
                         </div>
                     </div>
@@ -134,12 +119,12 @@
                     <div class="testimony-wrap py-4">
                         <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
                     <div class="text">
-                        <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <p class="mb-4" style="text-align: justify"><b>CleanSpaces</b> nos ha materializado nuestros proyectos de obras civils, y mantenimientos de nuestras locaciones. con una excelente mano de obra y servicio al cliente. </p>
                         <div class="d-flex align-items-center">
-                            <div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
+                            <div class="user-img" style="background-image: url(images/our_clients/aliados.png)"></div>
                             <div class="pl-3">
-                                <p class="name">Roger Scott</p>
-                                <span class="position">Marketing Manager</span>
+                                <p class="name">Coordinadora</p>
+                                <span class="position"> Administrativa</span>
                             </div>
                         </div>
                     </div>
@@ -149,12 +134,12 @@
                     <div class="testimony-wrap py-4">
                         <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
                     <div class="text">
-                        <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <p class="mb-4" style="text-align: justify"><b>CleanSpaces</b> nos ha materializado nuestros proyectos de obras civils, y mantenimientos de nuestras locaciones. con una excelente mano de obra y servicio al cliente. </p>
                         <div class="d-flex align-items-center">
-                            <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+                            <div class="user-img" style="background-image: url(images/our_clients/aliados.png)"></div>
                             <div class="pl-3">
-                                <p class="name">Roger Scott</p>
-                                <span class="position">Marketing Manager</span>
+                                <p class="name">Coordinadora</p>
+                                <span class="position"> Administrativa</span>
                             </div>
                         </div>
                     </div>
@@ -164,12 +149,27 @@
                     <div class="testimony-wrap py-4">
                         <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
                     <div class="text">
-                        <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <p class="mb-4" style="text-align: justify"><b>CleanSpaces</b> nos ha materializado nuestros proyectos de obras civils, y mantenimientos de nuestras locaciones. con una excelente mano de obra y servicio al cliente. </p>
                         <div class="d-flex align-items-center">
-                            <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+                            <div class="user-img" style="background-image: url(images/our_clients/aliados.png)"></div>
                             <div class="pl-3">
-                                <p class="name">Roger Scott</p>
-                                <span class="position">Marketing Manager</span>
+                                <p class="name">Coordinadora</p>
+                                <span class="position"> Administrativa</span>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimony-wrap py-4">
+                        <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                    <div class="text">
+                        <p class="mb-4" style="text-align: justify"><b>CleanSpaces</b> nos ha materializado nuestros proyectos de obras civils, y mantenimientos de nuestras locaciones. con una excelente mano de obra y servicio al cliente. </p>
+                        <div class="d-flex align-items-center">
+                            <div class="user-img" style="background-image: url(images/our_clients/aliados.png)"></div>
+                            <div class="pl-3">
+                                <p class="name">Coordinadora</p>
+                                <span class="position"> Administrativa</span>
                             </div>
                         </div>
                     </div>
