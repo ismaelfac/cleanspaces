@@ -25,10 +25,12 @@
 	<div class="wrap">
 	    <div class="container">
 				<div class="row justify-content-between">
-					<div class="col-3 d-flex align-items-center">
-						<a class="navbar-brand d-flex" href="/"><div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-roof-2"></span></div>Roofing</a>
-					</div>
+                    <div class="col-3 d-flex align-items-center">
+                        <a class="navbar-brand d-flex" href="{{ url('/') }}">
+                        <div class="d-flex align-items-center justify-content-center"></div><img src="images/logo.png" alt="" width="150px"></a>
+                    </div>
 					<div class="col-3 d-flex justify-content-end align-items-center">
+                        <a href="{{ url('/') }}" class="btn btn-primary btn-sm mr-2">Inicio </a>
                         <a href="{{ url('login') }}" class="btn btn-primary btn-sm mr-2">Acceder </a>
                         <a href="{{ url('register') }}" class="btn btn-primary btn-sm">Registrate </a>
 						<div class="social-media">
@@ -42,7 +44,7 @@
 	        <!-- END nav -->
             <div class="hero-wrap js-fullheight">
                 <div class="home-slider js-fullheight owl-carousel">
-                <div class="slider-item js-fullheight" style="background-image:url(../images/bg_1.jpg);">
+                <div class="slider-item js-fullheight" style="background-image:url(images/bg_1.jpg);">
                     <div class="overlay"></div>
                     <div class="container">
                     <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">

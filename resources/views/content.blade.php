@@ -515,7 +515,7 @@
                                 <span>24 Febrero 2021</span>
                             </div>
                         </div>
-                        <h3 class="heading"><a href="{{ url('preguntas_frecuentes')}}"><p style="text-align: justify">Que debo conocer antes de realizar un mantenimiento a la piscina</p></a></h3>
+                        <h3 class="heading"><a href="{{ url('preguntas_frecuentes')}}"><p style="text-align: justify">¿Que debo conocer antes de realizar un mantenimiento a la piscina?</p></a></h3>
                     </div>
                     </div>
                 </div>

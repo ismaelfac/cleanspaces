@@ -1,48 +1,52 @@
 <template>
     <div class="row">
-        <div class="col-md-6">
-            <div class="form-group">
-                <div class="form-field">
-                    <div class="select-wrap">
-                        <div class="icon">
-                            <span class="fa fa-chevron-down"></span>
-                        </div>
-                        <select name="selectedService" id="selectedService" class="form-control" v-model="selectedService">
-                            <option v-for="option in optionServices" :key="option.id" :value="option.id">{{ option.title }}</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="form-group">
+        <div class="col-md-12">
+            <div class="form-group ">
                 <input type="text" class="form-control input-space" placeholder="Nombres completos / razon social">
             </div>
         </div>
-        <div class="col-md-6">
-            <div class="form-group">
+        <div class="col-md-12">
+            <div class="form-group ">
                 <input type="text" class="form-control input-space" placeholder="Email">
             </div>
         </div>
-        <div class="col-md-6">
-            <div class="form-group">
+        <div class="col-md-12">
+            <div class="form-group ">
                 <div class="input-wrap">
-                    <div class="icon"><span class="fa fa-calendar"></span></div>
-                    <input type="text" class="form-control input-space appointment_date" placeholder="Date">
+                    <div class="icon"><span class="fa fa-card"></span></div>
+                    <input type="password" class="form-control" placeholder="Paswword">
                 </div>
             </div>
         </div>
         <div class="col-md-12">
-            <div class="form-group">
-                <textarea name="messageRegister" id="messageRegister" cols="30" rows="2" class="form-control input-space" placeholder="Message"></textarea>
+            <div class="form-group ">
+                <div class="input-wrap">
+                    <div class="icon"><span class="fa fa-card"></span></div>
+                    <input type="repite-password" class="form-control" placeholder="Repite Paswword">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checked_notifications" name="checked_notifications" v-model="checked_notifications">
+                <label class="form-check-label" for="checked_notifications"> Quiero recibir información y/o promociones </label>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checked_rap" name="checked_rap" v-model="checked_rap">
+                <label class="form-check-label" for="checked_rap"> Requiero atención personalizada </label>
             </div>
         </div>
     </div>
 </template>
 <script>
 export default {
+    name:"Register",
     data() {
         return {
+            checked_notifications: false,
+            checked_rap: false,
             checkedTCU: false,
             checkedICR: false,
             typeDni: [
