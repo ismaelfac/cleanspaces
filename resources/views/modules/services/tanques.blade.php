@@ -2,7 +2,7 @@
 @section('title') Tanques @endsection
 @section('contentServices')
     <h2 class="mb-3 mt-5">Mantenimiento de Tanques</h2>
-    <p><img src="images/image_1.jpg" alt="" class="img-fluid"></p>
+    <p><img src="images/services/work24.jpg" alt="" class="img-fluid"></p>
     <h2 class="mb-3">It is a long established fact a reader be distracted</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
     <p>Molestiae cupiditate inventore animi, maxime sapiente optio, illo est nemo veritatis repellat sunt doloribus nesciunt! Minima laborum magni reiciendis qui voluptate quisquam voluptatem soluta illo eum ullam incidunt rem assumenda eveniet eaque sequi deleniti tenetur dolore amet fugit perspiciatis ipsa, odit. Nesciunt dolor minima esse vero ut ea, repudiandae suscipit!</p>

@@ -125,7 +125,7 @@
           <div class="col-lg-4 sidebar pr-lg-5 ftco-animate">
             <div class="sidebar-box ftco-animate">
               <div class="categories">
-                <h3>Servicios</h3>
+                <h3>Nuestros Servicios</h3>
                 <li><a href="{{ url('piscinas')}} ">Piscinas <span class="fa fa-chevron-right"></span></a></li>
                 <li><a href="{{ url('tanques')}}">Mantenimiento de Tanques <span class="fa fa-chevron-right"></span></a></li>
                 <li><a href="{{ url('impermeabilizacion')}}">Impermeabilizacion <span class="fa fa-chevron-right"></span></a></li>
@@ -133,6 +133,7 @@
                 <li><a href="{{ url('mantenimientos_locativos')}}">Mantenimientos Locativos<span class="fa fa-chevron-right"></span></a></li>
                 <li><a href="{{ url('jardineria')}}">Jardineria<span class="fa fa-chevron-right"></span></a></li>
                 <li><a href="{{ url('aires_acondicionados')}}">Aires Acondicionados<span class="fa fa-chevron-right"></span></a></li>
+                <li><a href="{{ url('tapicerias')}}">Lavado, tapicerias y muebles<span class="fa fa-chevron-right"></span></a></li>
               </div>
             </div>
 

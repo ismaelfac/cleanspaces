@@ -19,8 +19,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::get('/getServices', [ServiceController::class, 'getServices']);
+Route::apiResource('roles', RoleController::class);
 Route::group(['prefix' => 'api'], function () {
     //** CRUD settings **/
-    Route::resource('roles', RoleController::class);
+    Route::apiResource('roles', RoleController::class);
     Route::get('/getServices', [ServiceController::class, 'getServices']);
 });

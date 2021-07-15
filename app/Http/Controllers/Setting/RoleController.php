@@ -18,10 +18,11 @@ class RoleController extends Controller
 
     public function index(Request $request)
     {
-        $roles = Role::orderBy('updated_at', 'DESC')->paginate(5); //Listo los roles ordenados por la ultima creación y luego los pagino por 5
-        $permissions = Permission::paginate(5);
+        $roles = Role::orderBy('updated_at', 'DESC')->paginate(10); //Listo los roles ordenados por la ultima creación y luego los pagino por 5
+        $permissions = Permission::paginate(25);
         $users = User::paginate(5);
-        return view('modules.setting', compact('users','roles', 'permissions')); //devuelvo los roles en la variable roles.
+        //return view('modules.setting', compact('users','roles', 'permissions')); //devuelvo los roles en la variable roles.
+        return response()->json([$roles, $permissions, $users], 200);
     }
 
     /**

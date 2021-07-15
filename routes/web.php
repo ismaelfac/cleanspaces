@@ -39,7 +39,9 @@ Route::get('jardineria', function () {
 Route::get('aires_acondicionados', function () {
     return view('modules.services.aires_acondicionados');
 });
-
+Route::get('tapicerias', function () {
+    return view('modules.services.tapicerias');
+});
 
 
 Route::resource('quotes', QuoteController::class);
